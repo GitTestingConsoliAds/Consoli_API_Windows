@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <EnvironmentVariables>
+      <Variable name="ExcelPath" value="/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation_Data/Automation_Data.xlsx" />
+      <Variable name="Environment" value="Sheeda" />
+    </EnvironmentVariables>
+  </PropertyGroup>
+</Project>
