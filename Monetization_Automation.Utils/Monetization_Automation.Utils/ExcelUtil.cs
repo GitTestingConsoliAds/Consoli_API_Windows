@@ -89,8 +89,8 @@ namespace Monetization_Automation.Utils
              //  String sConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source= " + filePath + ";Extended Properties='Excel 12.0 XML;HDR=YES'";
                OdbcConnection objConn = new System.Data.Odbc.OdbcConnection(conStr);
                objConn.Open();
-               OdbcCommand objCmdSelect = new OdbcCommand($"UPDATE [{sheetName}$] SET [" + columnName + "]='" + value + "'", objConn);
-               objCmdSelect.ExecuteNonQuery();
+             //  OdbcCommand objCmdSelect = new OdbcCommand($"UPDATE [{sheetName}$] SET [" + columnName + "]='" + value + "'", objConn);
+             //  objCmdSelect.ExecuteNonQuery();
                objConn.Close();
             }
                 catch (Exception e)
