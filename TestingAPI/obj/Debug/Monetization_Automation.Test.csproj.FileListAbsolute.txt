@@ -1,455 +1,72 @@
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/BouncyCastle.Crypto.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Http.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Algorithms.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Encoding.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Primitives.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.X509Certificates.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Ubiety.Dns.Core.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Zstandard.Net.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Appium.Net.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.Support.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/SeleniumExtras.PageObjects.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Castle.Core.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/ICSharpCode.SharpZipLib.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.Support.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Castle.Core.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csprojAssemblyReference.cache
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CoreCompileInputs.cache
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CopyComplete
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/BouncyCastle.Crypto.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Http.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Algorithms.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Encoding.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Primitives.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.X509Certificates.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Ubiety.Dns.Core.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Zstandard.Net.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Appium.Net.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.Support.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/SeleniumExtras.PageObjects.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Castle.Core.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/ICSharpCode.SharpZipLib.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.Support.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Castle.Core.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csprojAssemblyReference.cache
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CoreCompileInputs.cache
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CopyComplete
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Archive 2/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/BouncyCastle.Crypto.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.Office.Interop.Excel.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Http.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Algorithms.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Encoding.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Primitives.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.X509Certificates.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Ubiety.Dns.Core.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Zstandard.Net.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Appium.Net.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.Support.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/SeleniumExtras.PageObjects.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Castle.Core.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/ICSharpCode.SharpZipLib.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll.config
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.Support.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.pdb
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Castle.Core.xml
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csprojAssemblyReference.cache
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CoreCompileInputs.cache
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CopyComplete
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmad khisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/BouncyCastle.Crypto.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/DotNetZip.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.Core.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.PlatformServices.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.Office.Interop.Excel.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Http.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Algorithms.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Encoding.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.X509Certificates.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Ubiety.Dns.Core.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Zstandard.Net.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Appium.Net.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.Support.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/SeleniumExtras.PageObjects.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Castle.Core.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/ICSharpCode.SharpZipLib.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Base.dll.config
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Page.dll.config
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll.config
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/DotNetZip.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/DotNetZip.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.Core.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.Core.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.Support.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Castle.Core.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csprojAssemblyReference.cache
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CoreCompileInputs.cache
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CopyComplete
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Test.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.Win32.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/netstandard.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.AppContext.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Collections.Concurrent.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Collections.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Collections.NonGeneric.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Collections.Specialized.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.ComponentModel.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.ComponentModel.EventBasedAsync.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.ComponentModel.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.ComponentModel.TypeConverter.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Console.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Data.Common.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.Contracts.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.Debug.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.FileVersionInfo.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.Process.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.StackTrace.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.TextWriterTraceListener.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.Tools.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.TraceSource.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Diagnostics.Tracing.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Drawing.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Dynamic.Runtime.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Globalization.Calendars.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Globalization.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Globalization.Extensions.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.Compression.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.Compression.ZipFile.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.FileSystem.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.FileSystem.DriveInfo.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.FileSystem.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.FileSystem.Watcher.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.IsolatedStorage.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.MemoryMappedFiles.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.Pipes.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.IO.UnmanagedMemoryStream.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Linq.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Linq.Expressions.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Linq.Parallel.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Linq.Queryable.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Http.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.NameResolution.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.NetworkInformation.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Ping.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Requests.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Security.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.Sockets.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.WebHeaderCollection.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.WebSockets.Client.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Net.WebSockets.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.ObjectModel.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Reflection.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Reflection.Extensions.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Reflection.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Resources.Reader.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Resources.ResourceManager.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Resources.Writer.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.VisualC.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.Extensions.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.Handles.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.InteropServices.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.Numerics.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.Serialization.Formatters.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.Serialization.Json.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.Serialization.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.Serialization.Xml.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Claims.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Algorithms.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Csp.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Encoding.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.Primitives.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Cryptography.X509Certificates.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.Principal.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Security.SecureString.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Text.Encoding.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Text.Encoding.Extensions.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Text.RegularExpressions.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Threading.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Threading.Overlapped.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Threading.Tasks.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Threading.Tasks.Parallel.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Threading.Thread.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Threading.ThreadPool.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Threading.Timer.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.ValueTuple.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Xml.ReaderWriter.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Xml.XDocument.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Xml.XmlDocument.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Xml.XmlSerializer.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Xml.XPath.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Xml.XPath.XDocument.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/BouncyCastle.Crypto.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/DotNetZip.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.Core.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.PlatformServices.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.Office.Interop.Excel.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Ubiety.Dns.Core.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Zstandard.Net.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/ICSharpCode.SharpZipLib.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Monetization_Automation.Utils.dll.config
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/MySql.Data.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/DotNetZip.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/DotNetZip.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.Core.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Apis.Core.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Google.Protobuf.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Json.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Compression.LZ4.Streams.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/K4os.Hash.xxHash.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Newtonsoft.Json.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/RestSharp.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/WebDriver.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Renci.SshNet.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Buffers.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Memory.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Numerics.Vectors.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/bin/Debug/Excel.pdb
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csprojAssemblyReference.cache
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CoreCompileInputs.cache
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.csproj.CopyComplete
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.dll
-/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_API/Monetization_Automation/Monetization_Automation/Monetization_Automation/TestingAPI/obj/Debug/Monetization_Automation.Test.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Monetization_Automation.Test.dll.config
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Monetization_Automation.Test.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Monetization_Automation.Test.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\BouncyCastle.Crypto.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\DotNetZip.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Apis.Core.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Apis.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Apis.PlatformServices.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Protobuf.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Json.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\K4os.Compression.LZ4.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\K4os.Hash.xxHash.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Monetization_Automation.Utils.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\MySql.Data.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Newtonsoft.Json.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Renci.SshNet.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\RestSharp.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Buffers.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.IO.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Memory.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Net.Http.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Numerics.Vectors.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Runtime.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Ubiety.Dns.Core.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\WebDriver.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Zstandard.Net.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Excel.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\stdole.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Monetization_Automation.Utils.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Monetization_Automation.Utils.dll.config
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\MySql.Data.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\DotNetZip.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\DotNetZip.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Apis.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Apis.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Apis.Core.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Apis.Core.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Protobuf.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Google.Protobuf.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Json.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\K4os.Compression.LZ4.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\K4os.Hash.xxHash.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Newtonsoft.Json.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\RestSharp.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\WebDriver.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Renci.SshNet.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Buffers.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Memory.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Numerics.Vectors.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\bin\Debug\Excel.pdb
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\obj\Debug\Monetization_Automation.Test.csprojAssemblyReference.cache
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\obj\Debug\Monetization_Automation.Test.csproj.CoreCompileInputs.cache
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\obj\Debug\Monetization_Automation.Test.csproj.CopyComplete
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\obj\Debug\Monetization_Automation.Test.dll
+E:\Automation\Automation_API\Monetization_Automation\Monetization_Automation\Monetization_Automation\TestingAPI\obj\Debug\Monetization_Automation.Test.pdb

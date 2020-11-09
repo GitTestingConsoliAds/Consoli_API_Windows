@@ -62,7 +62,7 @@ namespace Monetization_Automation.Test
                     {
                         if (directoryInfo.Parent != null)
                         {
-                            ExcelUtil.PopulateInCollection(@"/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_Data/APIExcels/APIExcelCodeGenerator.xlsx", Monetization_Automation.TestingAPI.Properties.Settings.Default.Environment);
+                            ExcelUtil.PopulateInCollection(@"E:\Automation\Automation_Data\APIExcels\APIExcelCodeGenerator.xlsx", Monetization_Automation.TestingAPI.Properties.Settings.Default.Environment);
                         }
                     }
                 }
@@ -77,7 +77,8 @@ namespace Monetization_Automation.Test
         public void CampaignLogSummaryMainMethodCodeGenerator()
         {
             int dataSetIndex = 1;
-            Extension.OpenDBConnection(); Extension.OpenDBConnection();
+            Extension.OpenDBConnection(); 
+            Extension.OpenDBConnection();
             QueryArrayAllAPI.queryArrayAllAPI[0] = Utils.ExcelUtil.ReadData(1, "Query") + " " + Utils.ExcelUtil.ReadData(1, "Limit");
             Extension.ExecuteQueryAPICodeGenerator(SqlConnectionInstance.SqlConnection, dataSetIndex);
             CreateJsonRequestInputGenerator.CreateJson(DataSetPropertyFill.dataSetPropertyFill, "CampaignLogSummary");

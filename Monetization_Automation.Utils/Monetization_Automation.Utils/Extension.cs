@@ -18,7 +18,6 @@ namespace Monetization_Automation.Utils
     using OpenQA.Selenium.IE;
     using OpenQA.Selenium.Remote;
     using OpenQA.Selenium.Appium.Windows;
-    using MySql.Data.MySqlClient;
     using System.Net;
     using RestSharp;
     using System.Web.UI.WebControls;
@@ -27,7 +26,7 @@ namespace Monetization_Automation.Utils
     using System.IO.Compression;
     using System.Text;
     using Google.Apis.Services;
-
+    using MySql.Data.MySqlClient;
 
     public static class Extension
     {
@@ -175,7 +174,7 @@ namespace Monetization_Automation.Utils
         {
             string dateFormat = @"yyyyMMdd";
             string logFileName = DateTime.Now.ToString(dateFormat);
-            string fileName = @"/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_Data/" + logFileName + Name + ".htm";
+            string fileName = @"E:\Automation\Automation_Data\" + logFileName + Name + ".htm";
             //Create the HTML file.
             if (!File.Exists(fileName))
             {
@@ -204,8 +203,8 @@ namespace Monetization_Automation.Utils
 
                 //Table end.
                 html += "</table>";
-                File.WriteAllText(@"/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_Data/" + logFileName +  Name + ".htm", html);
-                Console.ReadLine();
+                File.WriteAllText(@"E:\Automation\Automation_Data\" + logFileName +  Name + ".htm", html);
+               // Console.ReadLine();
             }
             else
             {
@@ -221,8 +220,8 @@ namespace Monetization_Automation.Utils
                 html += "</tr>";
                 //Table end.
                 html += "</table>";
-                File.AppendAllText(@"/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_Data/" + logFileName + Name + ".htm", html);
-                Console.ReadLine();
+                File.AppendAllText(@"E:\Automation\Automation_Data\" + logFileName + Name + ".htm", html);
+                //Console.ReadLine();
             }
 
         }

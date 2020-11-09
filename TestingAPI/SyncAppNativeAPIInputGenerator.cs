@@ -62,7 +62,7 @@ namespace Monetization_Automation.Test
                     {
                         if (directoryInfo.Parent != null)
                         {
-                            ExcelUtil.PopulateInCollection(@"/Volumes/DataDisk/Ahmadkhisal/Consoliads/Automation/Automation_Data/APIExcels/APIExcelCodeGenerator.xlsx", Monetization_Automation.TestingAPI.Properties.Settings.Default.Environment);
+                            ExcelUtil.PopulateInCollection(@"E:\Automation\Automation_Data\APIExcels\APIExcelCodeGenerator.xlsx", Monetization_Automation.TestingAPI.Properties.Settings.Default.Environment);
                         }
                     }
                 }
