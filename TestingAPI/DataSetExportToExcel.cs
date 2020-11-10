@@ -48,8 +48,6 @@ namespace Monetization_Automation.Test
             }
         }
 
-
-        [TestMethod]
         public static void ExportToExcel(string fileName, DataSet dataSet, string sheetName)
         {
             Microsoft.Office.Interop.Excel.Application excelApp = null;
