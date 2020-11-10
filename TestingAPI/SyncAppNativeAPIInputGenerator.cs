@@ -23,7 +23,6 @@ using System.Windows.Forms;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    [DeploymentItem("Monetization_Automation.Utils.dll")]
     public class SyncAppNativeAPIInputGenerator
     {
         
@@ -75,6 +74,7 @@ namespace Monetization_Automation.Test
         }
 
         [TestMethod]
+        [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
         public void SyncAppNativeMainMethodInputGenerator()
         {
             int dataSetIndex = 6;

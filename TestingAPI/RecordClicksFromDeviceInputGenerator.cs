@@ -22,7 +22,6 @@ using System.Reflection;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    [DeploymentItem("Monetization_Automation.Utils.dll")]
     public class RecordClicksFromDeviceInputGenerator
     {
 
@@ -76,6 +75,7 @@ namespace Monetization_Automation.Test
 
 
         [TestMethod]
+        [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
         public void RecordClicksFromDeviceMainMethodCodeGenerator()
         {
             int dataSetIndex = 2;

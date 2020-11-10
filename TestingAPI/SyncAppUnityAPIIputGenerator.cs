@@ -22,7 +22,6 @@ using System.Reflection;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    [DeploymentItem("Monetization_Automation.Utils.dll")]
     public class SyncAppUnityAPIInputGenerator
     {
 
@@ -76,7 +75,8 @@ namespace Monetization_Automation.Test
 
 
             [TestMethod]
-            public void SyncAppunityMainMethodCodeGenerator()
+        [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
+        public void SyncAppunityMainMethodCodeGenerator()
             {
                 int dataSetIndex = 7;
                 DataCollectionAPIKeys.URLSDK = Utils.ExcelUtil.ReadData(6, "URL");
