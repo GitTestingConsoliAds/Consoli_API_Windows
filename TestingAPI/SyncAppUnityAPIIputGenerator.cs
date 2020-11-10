@@ -22,6 +22,7 @@ using System.Reflection;
 namespace Monetization_Automation.Test
 {
     [TestClass]
+    [DeploymentItem("Monetization_Automation.Utils.dll")]
     public class SyncAppUnityAPIInputGenerator
     {
 

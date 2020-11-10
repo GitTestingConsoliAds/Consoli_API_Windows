@@ -23,6 +23,7 @@ using System.Windows.Forms;
 namespace Monetization_Automation.Test
 {
     [TestClass]
+    [DeploymentItem("Monetization_Automation.Utils.dll")]
     public class SyncAppNativeAPIInputGenerator
     {
         
