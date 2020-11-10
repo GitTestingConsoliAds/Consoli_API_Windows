@@ -46,7 +46,7 @@ namespace Monetization_Automation.Test
         }
 
 
-        [TestMethod]
+      //  [TestMethod]
         public void SyncUserDeviceAPIAMainMethod()
         {
             int count = DataTableCollectionLoop.tableCollection.Rows.Count;

@@ -47,7 +47,7 @@ namespace Monetization_Automation.Test
         }
 
 
-        [TestMethod]
+     //   [TestMethod]
         public void SyncAppNativeAPIMainMethod()
         {
             int count = DataTableCollectionLoop.tableCollection.Rows.Count;

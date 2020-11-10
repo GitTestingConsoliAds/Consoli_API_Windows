@@ -48,7 +48,7 @@ namespace Monetization_Automation.Test
         }
 
 
-        [TestMethod]
+      //  [TestMethod]
         public void SaveNetworkStatsMainMethod()
         {
             int count = DataTableCollectionLoop.tableCollection.Rows.Count;
