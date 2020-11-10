@@ -192,7 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Monetization_Automation.Utils\Monetization_Automation.Utils\Monetization_Automation.Utils.csproj">
-      <Project>{A892AA91-7769-4E13-A34F-1626322F7EAF}</Project>
+      <Project>{a892aa91-7769-4e13-a34f-1626322f7eaf}</Project>
       <Name>Monetization_Automation.Utils</Name>
     </ProjectReference>
   </ItemGroup>
