@@ -174,7 +174,7 @@ namespace Monetization_Automation.Utils
         {
             string dateFormat = @"yyyyMMdd";
             string logFileName = DateTime.Now.ToString(dateFormat);
-            string fileName = @"E:\Automation\Automation_Data\AutomationAPIExecutionResultsFiles\" + logFileName + Name + ".htm";
+            string fileName = @"C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Consoli_API_Windows\AutomationAPIExecutionResultsFiles\" + logFileName + Name + ".htm";
             //Create the HTML file.
             if (!File.Exists(fileName))
             {
@@ -203,7 +203,7 @@ namespace Monetization_Automation.Utils
 
                 //Table end.
                 html += "</table>";
-                File.WriteAllText(@"E:\Automation\Automation_Data\AutomationAPIExecutionResultsFiles\" + logFileName +  Name + ".htm", html);
+                File.WriteAllText(@"C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Consoli_API_Windows\AutomationAPIExecutionResultsFiles\" + logFileName +  Name + ".htm", html);
                // Console.ReadLine();
             }
             else
@@ -220,7 +220,7 @@ namespace Monetization_Automation.Utils
                 html += "</tr>";
                 //Table end.
                 html += "</table>";
-                File.AppendAllText(@"E:\Automation\Automation_Data\AutomationAPIExecutionResultsFiles\" + logFileName + Name + ".htm", html);
+                File.AppendAllText(@"C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Consoli_API_Windows\AutomationAPIExecutionResultsFiles\" + logFileName + Name + ".htm", html);
                 //Console.ReadLine();
             }
 
