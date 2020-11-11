@@ -24,10 +24,10 @@ using System.Windows.Forms;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    public class CampaignLogSummaryAPIInputGenerator
+    public class B_CampaignLogSummaryAPIInputGenerator
     {
         
-        public CampaignLogSummaryAPIInputGenerator()
+        public B_CampaignLogSummaryAPIInputGenerator()
         {
            // string localFileName = null;
             try
@@ -76,7 +76,7 @@ namespace Monetization_Automation.Test
 
         [TestMethod]
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
-        public void CampaignLogSummaryMainMethodCodeGenerator()
+        public void B_CampaignLogSummaryMainMethodCodeGenerator()
         {
             int dataSetIndex = 1;
             Extension.OpenDBConnection(); 

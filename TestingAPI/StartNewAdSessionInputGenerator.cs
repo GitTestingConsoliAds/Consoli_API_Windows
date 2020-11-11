@@ -23,10 +23,10 @@ using System.Windows.Forms;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    public class StartNewAdSessionInputGenerator
+    public class E_StartNewAdSessionInputGenerator
     {
         
-        public StartNewAdSessionInputGenerator()
+        public E_StartNewAdSessionInputGenerator()
         {
            //     string localFileName = null;
               try
@@ -75,7 +75,7 @@ namespace Monetization_Automation.Test
 
         [TestMethod]
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
-        public void StartNewAdSessionMainInputGenerator()
+        public void E_StartNewAdSessionMainInputGenerator()
         {
             int dataSetIndex = 1;
             Extension.OpenDBConnection();

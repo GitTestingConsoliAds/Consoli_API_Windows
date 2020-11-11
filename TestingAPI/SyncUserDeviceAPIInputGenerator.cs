@@ -22,10 +22,10 @@ using System.Reflection;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    public class SyncUserDeviceAPIInputGenerator
+    public class G_SyncUserDeviceAPIInputGenerator
     {
 
-        public SyncUserDeviceAPIInputGenerator()
+        public G_SyncUserDeviceAPIInputGenerator()
         {
             //    string localFileName = null;
                 try
@@ -76,7 +76,7 @@ namespace Monetization_Automation.Test
 
         [TestMethod]
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
-        public void SyncUserDeviceMainMethodCodeGenerator()
+        public void G_SyncUserDeviceMainMethodCodeGenerator()
         {
 
             int dataSetIndex = 2;

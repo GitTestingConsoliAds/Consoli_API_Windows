@@ -22,10 +22,10 @@ using System.Reflection;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    public class SyncAppUnityAPIInputGenerator
+    public class F_SyncAppUnityAPIInputGenerator
     {
 
-        public SyncAppUnityAPIInputGenerator()
+        public F_SyncAppUnityAPIInputGenerator()
         {
               //  string localFileName = null;
                 try
@@ -76,13 +76,13 @@ namespace Monetization_Automation.Test
 
             [TestMethod]
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
-        public void SyncAppunityMainMethodCodeGenerator()
+        public void F_SyncAppunityMainMethodCodeGenerator()
             {
                 int dataSetIndex = 7;
                 DataCollectionAPIKeys.URLSDK = Utils.ExcelUtil.ReadData(6, "URL");
                 Extension.OpenDBConnection();
                 QueryArrayAllAPI.queryArrayAllAPI[0] = Utils.ExcelUtil.ReadData(5, "Query") + " " + Utils.ExcelUtil.ReadData(1, "Limit");
-            QueryArrayAllAPI.queryArrayAllAPI[1] = Utils.ExcelUtil.ReadData(5, "adID");
+                QueryArrayAllAPI.queryArrayAllAPI[1] = Utils.ExcelUtil.ReadData(5, "adID");
                 QueryArrayAllAPI.queryArrayAllAPI[2] = Utils.ExcelUtil.ReadData(5, "failOverAdID");
                 QueryArrayAllAPI.queryArrayAllAPI[3] = Utils.ExcelUtil.ReadData(5, "failOverAdIDBanner");
                 QueryArrayAllAPI.queryArrayAllAPI[4] = Utils.ExcelUtil.ReadData(5, "failOverAdIDNative");

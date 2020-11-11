@@ -11,7 +11,6 @@ using System.Net.Http.Headers;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
- 
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using RestSharp.Serialization.Json;
@@ -22,10 +21,10 @@ using System.Reflection;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    public class RecordClicksFromDeviceInputGenerator
+    public class C_RecordClicksFromDeviceInputGenerator
     {
 
-        public RecordClicksFromDeviceInputGenerator()
+        public C_RecordClicksFromDeviceInputGenerator()
         {
            // string localFileName = null;
            try
@@ -76,7 +75,7 @@ namespace Monetization_Automation.Test
 
         [TestMethod]
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
-        public void RecordClicksFromDeviceMainMethodCodeGenerator()
+        public void C_RecordClicksFromDeviceMainMethodCodeGenerator()
         {
             int dataSetIndex = 2;
             Extension.OpenDBConnection();

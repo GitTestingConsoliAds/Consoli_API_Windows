@@ -22,10 +22,10 @@ using System.Reflection;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    public class SaveNetworkrStatsAPIInputGenerator
+    public class D_SaveNetworkrStatsAPIInputGenerator
     {
 
-        public SaveNetworkrStatsAPIInputGenerator()
+        public D_SaveNetworkrStatsAPIInputGenerator()
         {
          //   string localFileName = null;
            try
@@ -75,7 +75,7 @@ namespace Monetization_Automation.Test
 
         [TestMethod]
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
-        public void SaveNetworkrStatsMainMethodCodeGenerator()
+        public void D_SaveNetworkrStatsMainMethodCodeGenerator()
         {
             int dataSetIndex = 2;
             int count = DataTableCollectionLoop.tableCollection.Rows.Count;

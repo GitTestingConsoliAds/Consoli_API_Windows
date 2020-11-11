@@ -23,10 +23,10 @@ using System.Windows.Forms;
 namespace Monetization_Automation.Test
 {
     [TestClass]
-    public class SyncAppNativeAPIInputGenerator
+    public class A_SyncAppNativeAPIInputGenerator
     {
         
-        public SyncAppNativeAPIInputGenerator()
+        public A_SyncAppNativeAPIInputGenerator()
         {
             //    string localFileName = null;
                 try
@@ -75,7 +75,7 @@ namespace Monetization_Automation.Test
 
         [TestMethod]
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
-        public void SyncAppNativeMainMethodInputGenerator()
+        public void A_SyncAppNativeMainMethodInputGenerator()
         {
             int dataSetIndex = 6;
             DataCollectionAPIKeys.URLSDK = Utils.ExcelUtil.ReadData(4, "URL");
