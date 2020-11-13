@@ -7,7 +7,7 @@ Debug Trace:
 ****************** select adID from ads where ad_type != 'analytics';
 ****************** 
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.socialink.jungle.warrior","store":"41","uniqueDeviceID":"4473","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"0","sceneID":"12"," request":"447"," impression":"447"," click":"447"}],"gssdkVersion":"1.0.0","sdkVersionID":"2001","sdkVersion":"2001","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 0 InternalServerError<!DOCTYPE html>
+{"package":"com.socialink.jungle.warrior","store":"41","uniqueDeviceID":"1376","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"0","sceneID":"4"," request":"138"," impression":"138"," click":"138"}],"gssdkVersion":"1.0.0","sdkVersionID":"2001","sdkVersion":"2001","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 0 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -73,7 +73,7 @@ AND `sdkID` = 2123
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.socialink.jungle.warrior","store":"41","uniqueDeviceID":"4473","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"0","sceneID":"12"," request":"447"," impression":"447"," click":"447"}],"gssdkVersion":"1.0.0","sdkVersionID":"2001","sdkVersion":"2001","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 0<!DOCTYPE html>
+{"package":"com.socialink.jungle.warrior","store":"41","uniqueDeviceID":"1376","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"0","sceneID":"4"," request":"138"," impression":"138"," click":"138"}],"gssdkVersion":"1.0.0","sdkVersionID":"2001","sdkVersion":"2001","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 0<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -140,7 +140,7 @@ AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Li
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.whitesand.farm.water.supply","store":"41","uniqueDeviceID":"4092","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"1","sceneID":"11"," request":"409"," impression":"409"," click":"409"}],"gssdkVersion":"2.0.3","sdkVersionID":"21","sdkVersion":"21","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 1 InternalServerError<!DOCTYPE html>
+{"package":"com.whitesand.farm.water.supply","store":"41","uniqueDeviceID":"7722","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"1","sceneID":"20"," request":"772"," impression":"772"," click":"772"}],"gssdkVersion":"2.0.3","sdkVersionID":"21","sdkVersion":"21","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 1 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -206,7 +206,7 @@ AND `sdkID` = 2123
 AND `isAM` =0</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 193</p>	</div>
 </body>
 </html>
-{"package":"com.whitesand.farm.water.supply","store":"41","uniqueDeviceID":"4092","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"1","sceneID":"11"," request":"409"," impression":"409"," click":"409"}],"gssdkVersion":"2.0.3","sdkVersionID":"21","sdkVersion":"21","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 1<!DOCTYPE html>
+{"package":"com.whitesand.farm.water.supply","store":"41","uniqueDeviceID":"7722","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"1","sceneID":"20"," request":"772"," impression":"772"," click":"772"}],"gssdkVersion":"2.0.3","sdkVersionID":"21","sdkVersion":"21","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 1<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -273,7 +273,7 @@ AND `isAM` =0</p><p>Filename: modules/common/models/Common_model.php</p><p>Line 
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.gamerzstudio.airplane.simulator","store":"41","uniqueDeviceID":"3819","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"2","sceneID":"10"," request":"382"," impression":"382"," click":"382"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 2 InternalServerError<!DOCTYPE html>
+{"package":"com.gamerzstudio.airplane.simulator","store":"41","uniqueDeviceID":"1802","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"2","sceneID":"5"," request":"180"," impression":"180"," click":"180"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 2 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -339,7 +339,7 @@ AND `sdkID` = 2123
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.gamerzstudio.airplane.simulator","store":"41","uniqueDeviceID":"3819","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"2","sceneID":"10"," request":"382"," impression":"382"," click":"382"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 2<!DOCTYPE html>
+{"package":"com.gamerzstudio.airplane.simulator","store":"41","uniqueDeviceID":"1802","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"2","sceneID":"5"," request":"180"," impression":"180"," click":"180"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 2<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -406,7 +406,7 @@ AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Li
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.gamerzstudio.airplane.simulator","store":"42","uniqueDeviceID":"2359","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"3","sceneID":"6"," request":"236"," impression":"236"," click":"236"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 3 InternalServerError<!DOCTYPE html>
+{"package":"com.gamerzstudio.airplane.simulator","store":"42","uniqueDeviceID":"2293","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"3","sceneID":"6"," request":"230"," impression":"230"," click":"230"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 3 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -472,7 +472,7 @@ AND `sdkID` = 2123
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.gamerzstudio.airplane.simulator","store":"42","uniqueDeviceID":"2359","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"3","sceneID":"6"," request":"236"," impression":"236"," click":"236"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 3<!DOCTYPE html>
+{"package":"com.gamerzstudio.airplane.simulator","store":"42","uniqueDeviceID":"2293","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"3","sceneID":"6"," request":"230"," impression":"230"," click":"230"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 3<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -539,7 +539,7 @@ AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Li
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"5674","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"4","sceneID":"15"," request":"567"," impression":"567"," click":"567"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 4 InternalServerError<!DOCTYPE html>
+{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"1148","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"4","sceneID":"3"," request":"115"," impression":"115"," click":"115"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 4 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -605,7 +605,7 @@ AND `sdkID` = 2123
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"5674","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"4","sceneID":"15"," request":"567"," impression":"567"," click":"567"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 4<!DOCTYPE html>
+{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"1148","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"4","sceneID":"3"," request":"115"," impression":"115"," click":"115"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 4<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -672,7 +672,7 @@ AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Li
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.gamerzstudio.city.construction.crane.operator","store":"41","uniqueDeviceID":"6165","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"5","sceneID":"16"," request":"616"," impression":"616"," click":"616"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 5 InternalServerError<!DOCTYPE html>
+{"package":"com.gamerzstudio.city.construction.crane.operator","store":"41","uniqueDeviceID":"6099","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"5","sceneID":"16"," request":"610"," impression":"610"," click":"610"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 5 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -738,7 +738,7 @@ AND `sdkID` = 2123
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.gamerzstudio.city.construction.crane.operator","store":"41","uniqueDeviceID":"6165","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"5","sceneID":"16"," request":"616"," impression":"616"," click":"616"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 5<!DOCTYPE html>
+{"package":"com.gamerzstudio.city.construction.crane.operator","store":"41","uniqueDeviceID":"6099","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"5","sceneID":"16"," request":"610"," impression":"610"," click":"610"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 5<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -805,7 +805,7 @@ AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Li
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"41","uniqueDeviceID":"1117","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"6","sceneID":"3"," request":"112"," impression":"112"," click":"112"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 6 InternalServerError<!DOCTYPE html>
+{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"41","uniqueDeviceID":"3002","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"6","sceneID":"8"," request":"300"," impression":"300"," click":"300"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 6 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -871,7 +871,7 @@ AND `sdkID` = 2123
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"41","uniqueDeviceID":"1117","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"6","sceneID":"3"," request":"112"," impression":"112"," click":"112"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 6<!DOCTYPE html>
+{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"41","uniqueDeviceID":"3002","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"6","sceneID":"8"," request":"300"," impression":"300"," click":"300"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 6<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -938,7 +938,7 @@ AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Li
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"43","uniqueDeviceID":"1608","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"7","sceneID":"5"," request":"161"," impression":"161"," click":"161"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 7 InternalServerError<!DOCTYPE html>
+{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"43","uniqueDeviceID":"5445","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"7","sceneID":"14"," request":"544"," impression":"544"," click":"544"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 7 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -1004,7 +1004,7 @@ AND `sdkID` = 2123
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"43","uniqueDeviceID":"1608","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"7","sceneID":"5"," request":"161"," impression":"161"," click":"161"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 7<!DOCTYPE html>
+{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"43","uniqueDeviceID":"5445","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"7","sceneID":"14"," request":"544"," impression":"544"," click":"544"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 7<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -1071,7 +1071,7 @@ AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Li
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.amazing.gamez.snow.plow.truck.simulator","store":"41","uniqueDeviceID":"4922","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"8","sceneID":"13"," request":"492"," impression":"492"," click":"492"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 8 InternalServerError<!DOCTYPE html>
+{"package":"com.amazing.gamez.snow.plow.truck.simulator","store":"41","uniqueDeviceID":"5936","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"8","sceneID":"15"," request":"594"," impression":"594"," click":"594"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 8 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -1137,7 +1137,7 @@ AND `sdkID` = 2123
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.amazing.gamez.snow.plow.truck.simulator","store":"41","uniqueDeviceID":"4922","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"8","sceneID":"13"," request":"492"," impression":"492"," click":"492"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 8<!DOCTYPE html>
+{"package":"com.amazing.gamez.snow.plow.truck.simulator","store":"41","uniqueDeviceID":"5936","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"8","sceneID":"15"," request":"594"," impression":"594"," click":"594"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 8<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -1204,7 +1204,7 @@ AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Li
 </body>
 </html>
 ****************** http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice
-{"package":"com.vinegargames.foot.surgery.simulator","store":"42","uniqueDeviceID":"1510","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"9","sceneID":"4"," request":"151"," impression":"151"," click":"151"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 9 InternalServerError<!DOCTYPE html>
+{"package":"com.vinegargames.foot.surgery.simulator","store":"42","uniqueDeviceID":"3711","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"9","sceneID":"10"," request":"371"," impression":"371"," click":"371"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","devMode":"0"}: Status code not OK,http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDevice API has failed at 9 InternalServerError<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -1270,7 +1270,7 @@ AND `sdkID` = 2124
 AND `isAM` = '0'</p><p>Filename: modules/common/models/Common_model.php</p><p>Line Number: 194</p>	</div>
 </body>
 </html>
-{"package":"com.vinegargames.foot.surgery.simulator","store":"42","uniqueDeviceID":"1510","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"9","sceneID":"4"," request":"151"," impression":"151"," click":"151"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 9<!DOCTYPE html>
+{"package":"com.vinegargames.foot.surgery.simulator","store":"42","uniqueDeviceID":"3711","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"9","sceneID":"10"," request":"371"," impression":"371"," click":"371"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","devMode":"0"}: http://sheeda.consoliads.com/sheeda/admin/analytics/syncUserDeviceAPI failed as it is not correct json response in content type 9<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
