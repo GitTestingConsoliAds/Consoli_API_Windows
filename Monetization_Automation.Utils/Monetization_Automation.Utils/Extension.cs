@@ -174,7 +174,7 @@ namespace Monetization_Automation.Utils
         {
             string dateFormat = @"yyyyMMdd";
             string logFileName = DateTime.Now.ToString(dateFormat);
-            string fileName = @"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\AutomationAPIExecutionResultsFiles\" + logFileName + Name + ".htm";
+            string fileName = @"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\AutomationAPIExecutionResultsFiles\" + Name + ".htm";
             //Create the HTML file.
             if (!File.Exists(fileName))
             {
@@ -203,7 +203,7 @@ namespace Monetization_Automation.Utils
 
                 //Table end.
                 html += "</table>";
-                File.WriteAllText(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\AutomationAPIExecutionResultsFiles\" + logFileName +  Name + ".htm", html);
+                File.WriteAllText(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\AutomationAPIExecutionResultsFiles\" +  Name + ".htm", html);
                // Console.ReadLine();
             }
             else
@@ -220,12 +220,20 @@ namespace Monetization_Automation.Utils
                 html += "</tr>";
                 //Table end.
                 html += "</table>";
-                File.AppendAllText(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\AutomationAPIExecutionResultsFiles\" + logFileName + Name + ".htm", html);
+                File.AppendAllText(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\AutomationAPIExecutionResultsFiles\" + Name + ".htm", html);
                 //Console.ReadLine();
             }
 
         }
 
+        public static void DeleteOldFilesFolder()
+        {
+            System.IO.DirectoryInfo di = new DirectoryInfo(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\AutomationAPIExecutionResultsFiles");
+            foreach (FileInfo file in di.GetFiles())
+            {
+                file.Delete();
+            }
+        }
     public enum PropertyType
         {
             Id,
