@@ -226,8 +226,6 @@ namespace Monetization_Automation.Utils
 
         }
 
-    
-
     public enum PropertyType
         {
             Id,
