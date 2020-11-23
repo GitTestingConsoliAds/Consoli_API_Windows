@@ -34,13 +34,13 @@ namespace Monetization_Automation.Test
             IRestResponse response = restClient.Execute(restRequest);
 
             //save network stats API response call session token
-            if (URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/analytics/saveNetworkStats"))
+            if (URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/analytics/saveNetworkStats"))
             {
                 ValidateResponseJsonSaveNetworkStats.ValidateResponseJsonSaveNetworkStatsSessionTokenMainMethod(response, URL, loop, jSonRequest);
             }
 
             //Save new Ad session/ camapign log summary API Json Response Call
-            if (URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api/startNewAdSession_2") || URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/startNewAdSession_2"))
+            if (URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api/startNewAdSession_2") || URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/startNewAdSession_2"))
             {
                 ValidateResponseJsonCampaignLogSummaryAdSessionAPI.ValidateResponseJsonCampaignLogSummaryAPIASessionTokenMainMethod(response, URL, loop, jSonRequest);
             }
@@ -57,7 +57,7 @@ namespace Monetization_Automation.Test
            
 
             // Record Click from Device API Response Call
-            if (URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/recordClicksFromDevice") || URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api/recordClicksFromDevice"))
+            if (URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/recordClicksFromDevice") || URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api/recordClicksFromDevice"))
             {
                 ValidateResponseJsonRecordClickFromDevice.ValidateResponseJsonRecordCickFromDevice(response, URL, loop,jSonRequest,apiName);
                 restClient.Delete(restRequest);
@@ -65,7 +65,7 @@ namespace Monetization_Automation.Test
             }
 
             // Sync User Device Json Response call
-            if (URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/analytics/syncUserDevice"))
+            if (URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/analytics/syncUserDevice"))
             {
                 ValidateResponseJsonSyncUserDevice.ValidateResponseJsonSyncUserDeviceMainMethod(response, URL, loop,jSonRequest,apiName);
                 restClient.Delete(restRequest);
@@ -73,7 +73,7 @@ namespace Monetization_Automation.Test
             }
 
             //Save new Ad session/ camapign log summary API Json Response Call
-            if (URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api/startNewAdSession_2") || URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/startNewAdSession_2"))
+            if (URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api/startNewAdSession_2") || URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/startNewAdSession_2"))
             {
               ValidateResponseJsonCampaignLogSummaryAdSessionAPI.ValidateResponseJsonCampaignLogSummaryAPIASessionMainMethod(response, URL, loop,jSonRequest,apiName);
                 restClient.Delete(restRequest);
@@ -81,7 +81,7 @@ namespace Monetization_Automation.Test
             }
 
             //Sync App Native/Unity API Json Response Call
-            if (URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/json/syncApp"))
+            if (URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/json/syncApp"))
             {
                 ValidateResponseJsonSyncAppUnityNative.ValidateResponseJsonSyncAppUnityNativeMainMethod(response, URL, loop, jSonRequest,apiName);
                 restClient.Delete(restRequest);
@@ -89,7 +89,7 @@ namespace Monetization_Automation.Test
             }
 
             //save network stats API response call
-            if (URL.Equals("http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/analytics/saveNetworkStats"))
+            if (URL.Equals("http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/analytics/saveNetworkStats"))
             {
                 ValidateResponseJsonSaveNetworkStats.ValidateResponseJsonSaveNetworkStatsMainMethod(response, URL, loop, jSonRequest,apiName);
                 restClient.Delete(restRequest);
