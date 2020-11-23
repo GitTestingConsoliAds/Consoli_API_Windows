@@ -75,11 +75,11 @@ namespace Monetization_Automation.Test
                     request.AddParameter("text/plain", inputBytes, ParameterType.RequestBody);
                     if (sdkVersion1 >= 22)
                     {
-                        DataCollectionAPIKeys.URLSDK = "http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api/startNewAdSession_2";
+                        DataCollectionAPIKeys.URLSDK = "http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api/startNewAdSession_2";
                     }
                      else if (sdkVersion1 <= 21)
                     {
-                        DataCollectionAPIKeys.URLSDK = "http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/startNewAdSession_2";
+                        DataCollectionAPIKeys.URLSDK = "http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/startNewAdSession_2";
                     }
                     SendJsonRequest.SendJsonRequestMainMethod(jsonBody, DataCollectionAPIKeys.URLSDK, request, counter, apiName);
                     counter = counter + 1;
@@ -193,11 +193,11 @@ namespace Monetization_Automation.Test
                     request.AddParameter("application/json", inputBytes, ParameterType.RequestBody);
                     if (sdkID >= 22)
                     {
-                        DataCollectionAPIKeys.URLSDK = "http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api/startNewAdSession_2";
+                        DataCollectionAPIKeys.URLSDK = "http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api/startNewAdSession_2";
                     }
                     else if(sdkID <= 21)
                     {
-                        DataCollectionAPIKeys.URLSDK = "http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/startNewAdSession_2";
+                        DataCollectionAPIKeys.URLSDK = "http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/startNewAdSession_2";
                     }
                     SendJsonRequest.SendJsonRequestMainMethod(jsonBody, DataCollectionAPIKeys.URLSDK, request, counter, apiName);
                     counter = counter + 1;
@@ -236,11 +236,11 @@ namespace Monetization_Automation.Test
 
                     if (sdkID >= 22)
                     {
-                        DataCollectionAPIKeys.URLSDK = "http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api/recordClicksFromDevice";
+                        DataCollectionAPIKeys.URLSDK = "http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api/recordClicksFromDevice";
                     }
                     else if (sdkID <= 21)
                     {
-                        DataCollectionAPIKeys.URLSDK = "http://52.13.174.6/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/recordClicksFromDevice";
+                        DataCollectionAPIKeys.URLSDK = "http://sheeda.consoliads.com/" + DataCollectionAPIKeys.branchName + "/admin/api_v1/recordClicksFromDevice";
                     }
                     SendJsonRequest.SendJsonRequestMainMethod(jsonBody, DataCollectionAPIKeys.URLSDK, request, counter,apiName);
                     counter = counter + 1;
