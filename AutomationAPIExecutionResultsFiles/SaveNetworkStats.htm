@@ -1,226 +1,4 @@
-<table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><th style='background-color: #B8DBFD;border: 1px solid #ccc'>#</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>TransactionTime</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>JsonRequest</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>jsonResponse</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>Status</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>URL</th></tr><tr><td style='width:1000px;border: 1px solid #ccc'>0</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9861212</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.socialink.jungle.warrior","store":"41","uniqueDeviceID":"3707","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"0","sceneID":"10","request":"371","impression":"371","click":"371"}],"gssdkVersion":"1.0.0","sdkVersionID":"2001","sdkVersion":"2001","sessionToken":"JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"wab4Y39mp\/wUSYgl96c5mURv7JDcdJwt9QD4YDB8cADi\/OT3BFsV5fgFTWzvZs1c6CvTlaQVQyGsnjQXa7\/tTPYKZZeJXoAsc4sylmgcjUjRax8mGI0+cU8e2O5AyXxi"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>1</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1297672</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.whitesand.farm.water.supply","store":"41","uniqueDeviceID":"3118","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"1","sceneID":"8","request":"312","impression":"312","click":"312"}],"gssdkVersion":"2.0.3","sdkVersionID":"21","sdkVersion":"21","sessionToken":"wab4Y39mp\/wUSYgl96c5mURv7JDcdJwt9QD4YDB8cADi\/OT3BFsV5fgFTWzvZs1c6CvTlaQVQyGsnjQXa7\/tTPYKZZeJXoAsc4sylmgcjUjRax8mGI0+cU8e2O5AyXxi"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>1</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1297672</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.whitesand.farm.water.supply","store":"41","uniqueDeviceID":"3118","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"1","sceneID":"8","request":"312","impression":"312","click":"312"}],"gssdkVersion":"2.0.3","sdkVersionID":"21","sdkVersion":"21","sessionToken":"wab4Y39mp\/wUSYgl96c5mURv7JDcdJwt9QD4YDB8cADi\/OT3BFsV5fgFTWzvZs1c6CvTlaQVQyGsnjQXa7\/tTPYKZZeJXoAsc4sylmgcjUjRax8mGI0+cU8e2O5AyXxi"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>1</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1297672</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.whitesand.farm.water.supply","store":"41","uniqueDeviceID":"3118","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"1","sceneID":"8","request":"312","impression":"312","click":"312"}],"gssdkVersion":"2.0.3","sdkVersionID":"21","sdkVersion":"21","sessionToken":"wab4Y39mp\/wUSYgl96c5mURv7JDcdJwt9QD4YDB8cADi\/OT3BFsV5fgFTWzvZs1c6CvTlaQVQyGsnjQXa7\/tTPYKZZeJXoAsc4sylmgcjUjRax8mGI0+cU8e2O5AyXxi"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>2</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7066726</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.airplane.simulator","store":"41","uniqueDeviceID":"9116","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"2","sceneID":"23","request":"911","impression":"911","click":"911"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"wab4Y39mp\/wUSYgl96c5mURv7JDcdJwt9QD4YDB8cADi\/OT3BFsV5fgFTWzvZs1c6CvTlaQVQyGsnjQXa7\/tTPYKZZeJXoAsc4sylmgcjUjRax8mGI0+cU8e2O5AyXxi"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"WG8xoQ5m7qnVv\/HJzE63FEkMhV0CD3T8PnnLOImpUzMAYadAU4rRduKcmlK565ay8nCZX7\/kxHIzpqVllvjqqwMGBsVzpBDSqERM7Me917bsEWUR\/h6gQjpew18vJHXo"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>3</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6982878</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.airplane.simulator","store":"42","uniqueDeviceID":"2149","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"3","sceneID":"6","request":"215","impression":"215","click":"215"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"WG8xoQ5m7qnVv\/HJzE63FEkMhV0CD3T8PnnLOImpUzMAYadAU4rRduKcmlK565ay8nCZX7\/kxHIzpqVllvjqqwMGBsVzpBDSqERM7Me917bsEWUR\/h6gQjpew18vJHXo"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"zXMvqc17qrIbWOteOQvWH\/1ozRk1lJD4p8ZMX537qRoc\/3Flwa3RRkpLZLp3Sx24I1\/QD9PdZJeMBWAiG+ki\/xJTWbN2rajhxIZ3HuMBdPNl7d1tYaBcRua9FTP80dtW"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>4</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0818882</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"6368","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"4","sceneID":"16","request":"637","impression":"637","click":"637"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"zXMvqc17qrIbWOteOQvWH\/1ozRk1lJD4p8ZMX537qRoc\/3Flwa3RRkpLZLp3Sx24I1\/QD9PdZJeMBWAiG+ki\/xJTWbN2rajhxIZ3HuMBdPNl7d1tYaBcRua9FTP80dtW"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><th style='background-color: #B8DBFD;border: 1px solid #ccc'>#</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>TransactionTime</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>JsonRequest</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>jsonResponse</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>Status</th><th style='background-color: #B8DBFD;border: 1px solid #ccc'>URL</th></tr><tr><td style='width:1000px;border: 1px solid #ccc'>0</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0523355</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.socialink.jungle.warrior","store":"41","uniqueDeviceID":"8794","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"0","sceneID":"22","request":"879","impression":"879","click":"879"}],"gssdkVersion":"1.0.0","sdkVersionID":"2001","sdkVersion":"2001","sessionToken":"JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"f03haF7IfxE9D9RD8EdiyjWkTSiQpHUZsUMoflVXmrCNT6orujF\/OIXHFOQhrgIhc10tfxahPeGYtHSUgBYXbFf2B1OpSj8ZfNndJ8+XAOYZFAUzfJfDyRfl8\/Q\/1K00"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>1</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7239386</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.whitesand.farm.water.supply","store":"41","uniqueDeviceID":"7334","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"1","sceneID":"19","request":"733","impression":"733","click":"733"}],"gssdkVersion":"2.0.3","sdkVersionID":"21","sdkVersion":"21","sessionToken":"f03haF7IfxE9D9RD8EdiyjWkTSiQpHUZsUMoflVXmrCNT6orujF\/OIXHFOQhrgIhc10tfxahPeGYtHSUgBYXbFf2B1OpSj8ZfNndJ8+XAOYZFAUzfJfDyRfl8\/Q\/1K00"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>2</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7069534</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.airplane.simulator","store":"41","uniqueDeviceID":"8730","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"2","sceneID":"22","request":"873","impression":"873","click":"873"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"f03haF7IfxE9D9RD8EdiyjWkTSiQpHUZsUMoflVXmrCNT6orujF\/OIXHFOQhrgIhc10tfxahPeGYtHSUgBYXbFf2B1OpSj8ZfNndJ8+XAOYZFAUzfJfDyRfl8\/Q\/1K00"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"5sKiKAvdh74srFrigb1IbxMEy0Br3Gs24I9tYOnwnlNvagNkZROGz7wnlw8zWroiAkqEVQOj7xAtRiR+VZjwUxIFlPdMxhkJsLfhirCXHFpSiNqWmoAwRnj31ZcvziQf"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>3</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6969187</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.airplane.simulator","store":"42","uniqueDeviceID":"4902","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"3","sceneID":"13","request":"490","impression":"490","click":"490"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"5sKiKAvdh74srFrigb1IbxMEy0Br3Gs24I9tYOnwnlNvagNkZROGz7wnlw8zWroiAkqEVQOj7xAtRiR+VZjwUxIFlPdMxhkJsLfhirCXHFpSiNqWmoAwRnj31ZcvziQf"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"FSJ4VXBnUEyJhL3PsT4J\/Fm9QD2vxaGRuC3yCU\/jat8UlEBDX5PBmBi+wKGHU+I6HDgyzLQKr7XtyHO\/mL4yg2yHFWaqhvOrjlQ4\/7ZvLrK4kSS8h8sP1sEINChbIDu6"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>4</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1226659</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"4347","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"4","sceneID":"11","request":"435","impression":"435","click":"435"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"FSJ4VXBnUEyJhL3PsT4J\/Fm9QD2vxaGRuC3yCU\/jat8UlEBDX5PBmBi+wKGHU+I6HDgyzLQKr7XtyHO\/mL4yg2yHFWaqhvOrjlQ4\/7ZvLrK4kSS8h8sP1sEINChbIDu6"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -228,7 +6,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -240,7 +18,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -277,8 +55,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>4</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0818882</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"6368","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"4","sceneID":"16","request":"637","impression":"637","click":"637"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"zXMvqc17qrIbWOteOQvWH\/1ozRk1lJD4p8ZMX537qRoc\/3Flwa3RRkpLZLp3Sx24I1\/QD9PdZJeMBWAiG+ki\/xJTWbN2rajhxIZ3HuMBdPNl7d1tYaBcRua9FTP80dtW"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>4</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1226659</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"4347","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"4","sceneID":"11","request":"435","impression":"435","click":"435"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"FSJ4VXBnUEyJhL3PsT4J\/Fm9QD2vxaGRuC3yCU\/jat8UlEBDX5PBmBi+wKGHU+I6HDgyzLQKr7XtyHO\/mL4yg2yHFWaqhvOrjlQ4\/7ZvLrK4kSS8h8sP1sEINChbIDu6"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -286,7 +64,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -298,7 +76,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -335,8 +113,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>5</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6979882</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.city.construction.crane.operator","store":"41","uniqueDeviceID":"6859","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"5","sceneID":"18","request":"686","impression":"686","click":"686"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"zXMvqc17qrIbWOteOQvWH\/1ozRk1lJD4p8ZMX537qRoc\/3Flwa3RRkpLZLp3Sx24I1\/QD9PdZJeMBWAiG+ki\/xJTWbN2rajhxIZ3HuMBdPNl7d1tYaBcRua9FTP80dtW"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"XOskDq0CPdd7Jk6wYcnnvwG0rESy1FifmhnzfLeFnngbQ5trFAeBfuMfqqCgRpm9msmn8o5bcs9ihK+EnpudgBfJirRYVJq2whHUSwp12JJ0E1AJde5VW4Ol32\/Vrn91"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>6</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7011752</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"41","uniqueDeviceID":"1080","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"6","sceneID":"3","request":"108","impression":"108","click":"108"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"XOskDq0CPdd7Jk6wYcnnvwG0rESy1FifmhnzfLeFnngbQ5trFAeBfuMfqqCgRpm9msmn8o5bcs9ihK+EnpudgBfJirRYVJq2whHUSwp12JJ0E1AJde5VW4Ol32\/Vrn91"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"OceAdhodQRKSfA4xkrcdkWRoXoSxIX5QteO\/ucZ834A86NK\/IOmQJa3xTg\/U+d6CzgX1WD\/\/4TnT6ZbVk1kp2AsS3A4y4K\/NWEz9Nu5U38aeDuO40M8HetiBSZTg7QEJ"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>7</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7481553</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"43","uniqueDeviceID":"525","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"7","sceneID":"2","request":"53","impression":"53","click":"53"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"OceAdhodQRKSfA4xkrcdkWRoXoSxIX5QteO\/ucZ834A86NK\/IOmQJa3xTg\/U+d6CzgX1WD\/\/4TnT6ZbVk1kp2AsS3A4y4K\/NWEz9Nu5U38aeDuO40M8HetiBSZTg7QEJ"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"nqKy2YTYCXDrrdNwjeHvOyPrQCACXM\/3dBf6h1DzeFGBXadIP49jB3Mzd6N3tAXx8yIAQL7KUyk3+cz\/w8HRk+Ef69inlF\/A+fly8N6nRQGxh1OQWyCVapZHR5BTQPqH"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>8</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7626757</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.snow.plow.truck.simulator","store":"41","uniqueDeviceID":"285","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"8","sceneID":"1","request":"29","impression":"29","click":"29"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"nqKy2YTYCXDrrdNwjeHvOyPrQCACXM\/3dBf6h1DzeFGBXadIP49jB3Mzd6N3tAXx8yIAQL7KUyk3+cz\/w8HRk+Ef69inlF\/A+fly8N6nRQGxh1OQWyCVapZHR5BTQPqH"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"L9wQyB6fti3ckMW0xl1xz25dn9GIOmc5gGNSgawRFg1nHIx2oqItkAle+v69bEUiEMJN2k9537bDocIDifii5N1wkMX8aPcvE\/wboNcX6PIza\/p6bDIMcWSp1RooTk1O"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>9</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7038442</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.vinegargames.foot.surgery.simulator","store":"42","uniqueDeviceID":"4712","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"9","sceneID":"12","request":"471","impression":"471","click":"471"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","sessionToken":"L9wQyB6fti3ckMW0xl1xz25dn9GIOmc5gGNSgawRFg1nHIx2oqItkAle+v69bEUiEMJN2k9537bDocIDifii5N1wkMX8aPcvE\/wboNcX6PIza\/p6bDIMcWSp1RooTk1O"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"oYjVHat8j82k3UZ1r6WMOGcoPxZLdanR+IydV4d2jqR478qqG89XdUacGyElnd0KtC0dDFaU8lq00EKEYQwL4pXU\/OtnZgMhUMw6PQyx531oCdpNMgzcUjtW0Ep9fJgO"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>10</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9725102</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.sand.excavator.simulator","store":"41","uniqueDeviceID":"8932","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"10","sceneID":"23","request":"893","impression":"893","click":"893"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"oYjVHat8j82k3UZ1r6WMOGcoPxZLdanR+IydV4d2jqR478qqG89XdUacGyElnd0KtC0dDFaU8lq00EKEYQwL4pXU\/OtnZgMhUMw6PQyx531oCdpNMgzcUjtW0Ep9fJgO"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>5</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7020540</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.city.construction.crane.operator","store":"41","uniqueDeviceID":"6789","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"5","sceneID":"17","request":"679","impression":"679","click":"679"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"FSJ4VXBnUEyJhL3PsT4J\/Fm9QD2vxaGRuC3yCU\/jat8UlEBDX5PBmBi+wKGHU+I6HDgyzLQKr7XtyHO\/mL4yg2yHFWaqhvOrjlQ4\/7ZvLrK4kSS8h8sP1sEINChbIDu6"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"EdwgpRplAogiA8EIKJupa7D+A9bvGGjPQfBwaN6odkYVPxCs8vWM16uudq1EqlPBehaesDV4ADarP4KxcRFKeKU14YVG\/RyfP99gxBSFL1tQ2lfKEdpsOElNkjvpk9OE"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>6</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7089271</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"41","uniqueDeviceID":"1010","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"6","sceneID":"3","request":"101","impression":"101","click":"101"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"EdwgpRplAogiA8EIKJupa7D+A9bvGGjPQfBwaN6odkYVPxCs8vWM16uudq1EqlPBehaesDV4ADarP4KxcRFKeKU14YVG\/RyfP99gxBSFL1tQ2lfKEdpsOElNkjvpk9OE"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"U4eynOEZ+y47uRrnq88Bmcl9AKVJgXutqr1tz4YYUIO\/Sn\/zQfdQvetw9vdqDBdZIP2iRMFoZbQfrjAO9Xg2LAxhAhijXDYgdPquTTImAyvqBB5McnBtNkby3vu2aNzC"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>7</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7071046</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"43","uniqueDeviceID":"4042","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"7","sceneID":"11","request":"404","impression":"404","click":"404"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"U4eynOEZ+y47uRrnq88Bmcl9AKVJgXutqr1tz4YYUIO\/Sn\/zQfdQvetw9vdqDBdZIP2iRMFoZbQfrjAO9Xg2LAxhAhijXDYgdPquTTImAyvqBB5McnBtNkby3vu2aNzC"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"LEYbk7bFzhXKGaQfcFvNvBzGnYmkIV3Uf2AB6vsKFT5xR1xuLD7z\/\/pRUdYm4icmuL2Yu3Shu6YYDIJ7fhNRQHKpdE5twmolDpJRUdnnIu9\/cHqyn1IW6owMbhp8WPVG"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>8</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7058975</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.snow.plow.truck.simulator","store":"41","uniqueDeviceID":"8262","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"8","sceneID":"21","request":"826","impression":"826","click":"826"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"LEYbk7bFzhXKGaQfcFvNvBzGnYmkIV3Uf2AB6vsKFT5xR1xuLD7z\/\/pRUdYm4icmuL2Yu3Shu6YYDIJ7fhNRQHKpdE5twmolDpJRUdnnIu9\/cHqyn1IW6owMbhp8WPVG"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"FsnIFY9Fou6yXhLDf5FdEqsRFHeMLpDobV++K6j29L3C8qk4ziLGgaWaBULbRnPjVAwjuSeJ7P\/WbXimlYj8Se7GDizeqCmH6SAObjM5X9JPjwmecSIPhKMejxsdo0e2"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>9</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7290970</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.vinegargames.foot.surgery.simulator","store":"42","uniqueDeviceID":"7706","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"9","sceneID":"20","request":"770","impression":"770","click":"770"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","sessionToken":"FsnIFY9Fou6yXhLDf5FdEqsRFHeMLpDobV++K6j29L3C8qk4ziLGgaWaBULbRnPjVAwjuSeJ7P\/WbXimlYj8Se7GDizeqCmH6SAObjM5X9JPjwmecSIPhKMejxsdo0e2"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"tqYzQAc+ykXLyHTo+f3AG7GvkIdGBCEDVoWlk5L\/K9Y4Yqxh0L15pQpXqa3cr5+HZTQwZJVqjZvUGuH3zBr3G08q6e7xGHXqLRvyvpKeQOvoFKu+e31kP8PQEyEyJ8Fb"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>10</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9656835</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.sand.excavator.simulator","store":"41","uniqueDeviceID":"3879","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"10","sceneID":"10","request":"388","impression":"388","click":"388"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"tqYzQAc+ykXLyHTo+f3AG7GvkIdGBCEDVoWlk5L\/K9Y4Yqxh0L15pQpXqa3cr5+HZTQwZJVqjZvUGuH3zBr3G08q6e7xGHXqLRvyvpKeQOvoFKu+e31kP8PQEyEyJ8Fb"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -344,7 +122,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -356,7 +134,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -393,8 +171,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>10</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9725102</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.sand.excavator.simulator","store":"41","uniqueDeviceID":"8932","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"10","sceneID":"23","request":"893","impression":"893","click":"893"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"oYjVHat8j82k3UZ1r6WMOGcoPxZLdanR+IydV4d2jqR478qqG89XdUacGyElnd0KtC0dDFaU8lq00EKEYQwL4pXU\/OtnZgMhUMw6PQyx531oCdpNMgzcUjtW0Ep9fJgO"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>10</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9656835</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.sand.excavator.simulator","store":"41","uniqueDeviceID":"3879","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"10","sceneID":"10","request":"388","impression":"388","click":"388"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"tqYzQAc+ykXLyHTo+f3AG7GvkIdGBCEDVoWlk5L\/K9Y4Yqxh0L15pQpXqa3cr5+HZTQwZJVqjZvUGuH3zBr3G08q6e7xGHXqLRvyvpKeQOvoFKu+e31kP8PQEyEyJ8Fb"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -402,7 +180,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -414,7 +192,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -451,8 +229,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>11</td><td style='width:2000px;border: 1px solid #ccc'>00:00:02.0105816</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.sand.excavator.simulator","store":"43","uniqueDeviceID":"9979","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"11","sceneID":"25","request":"997","impression":"997","click":"997"}],"gssdkVersion":"5.1.3","sdkVersionID":"2151","sdkVersion":"2151","sessionToken":"oYjVHat8j82k3UZ1r6WMOGcoPxZLdanR+IydV4d2jqR478qqG89XdUacGyElnd0KtC0dDFaU8lq00EKEYQwL4pXU\/OtnZgMhUMw6PQyx531oCdpNMgzcUjtW0Ep9fJgO"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>11</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0017497</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.sand.excavator.simulator","store":"43","uniqueDeviceID":"1338","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"11","sceneID":"4","request":"134","impression":"134","click":"134"}],"gssdkVersion":"5.1.3","sdkVersionID":"2151","sdkVersion":"2151","sessionToken":"tqYzQAc+ykXLyHTo+f3AG7GvkIdGBCEDVoWlk5L\/K9Y4Yqxh0L15pQpXqa3cr5+HZTQwZJVqjZvUGuH3zBr3G08q6e7xGHXqLRvyvpKeQOvoFKu+e31kP8PQEyEyJ8Fb"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -460,7 +238,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -472,7 +250,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -509,8 +287,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>11</td><td style='width:2000px;border: 1px solid #ccc'>00:00:02.0105816</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.sand.excavator.simulator","store":"43","uniqueDeviceID":"9979","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"11","sceneID":"25","request":"997","impression":"997","click":"997"}],"gssdkVersion":"5.1.3","sdkVersionID":"2151","sdkVersion":"2151","sessionToken":"oYjVHat8j82k3UZ1r6WMOGcoPxZLdanR+IydV4d2jqR478qqG89XdUacGyElnd0KtC0dDFaU8lq00EKEYQwL4pXU\/OtnZgMhUMw6PQyx531oCdpNMgzcUjtW0Ep9fJgO"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>11</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0017497</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.sand.excavator.simulator","store":"43","uniqueDeviceID":"1338","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"11","sceneID":"4","request":"134","impression":"134","click":"134"}],"gssdkVersion":"5.1.3","sdkVersionID":"2151","sdkVersion":"2151","sessionToken":"tqYzQAc+ykXLyHTo+f3AG7GvkIdGBCEDVoWlk5L\/K9Y4Yqxh0L15pQpXqa3cr5+HZTQwZJVqjZvUGuH3zBr3G08q6e7xGHXqLRvyvpKeQOvoFKu+e31kP8PQEyEyJ8Fb"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -518,7 +296,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -530,7 +308,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -567,8 +345,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>12</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0612078</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.rangers.van.gangsters.chase","store":"41","uniqueDeviceID":"5596","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"12","sceneID":"14","request":"560","impression":"560","click":"560"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"oYjVHat8j82k3UZ1r6WMOGcoPxZLdanR+IydV4d2jqR478qqG89XdUacGyElnd0KtC0dDFaU8lq00EKEYQwL4pXU\/OtnZgMhUMw6PQyx531oCdpNMgzcUjtW0Ep9fJgO"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"LVLnkiY9vboAdeBTR5mNLqCQh6TqD2RxKAwwWfpJyKUhlvEcugtYOZ6DXgsgNqu7xfXzDMrnx1OJJ5zxqQfeWPcTzn36hSpd\/5oilzrCvp4p3mdMPsC9vwxFXsnpbADs"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>13</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7077972</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.rangers.van.gangsters.chase","store":"43","uniqueDeviceID":"548","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"14","sceneID":"2","request":"55","impression":"55","click":"55"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"LVLnkiY9vboAdeBTR5mNLqCQh6TqD2RxKAwwWfpJyKUhlvEcugtYOZ6DXgsgNqu7xfXzDMrnx1OJJ5zxqQfeWPcTzn36hSpd\/5oilzrCvp4p3mdMPsC9vwxFXsnpbADs"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"He8vDwpwWOc5WXBSv01YhNcAAsNv7cJrjRLtHf+ck46zlQ9wOvo3TBGFOStgkhbBQ6QAZQzq+JT0YJ1H1wbG+I9ktxGidu\/\/R37ybOnsCo5pMa1dZrSecSW2yu\/Yf6dB"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>14</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9765489</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"1.0","store":"42","uniqueDeviceID":"8355","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"15","sceneID":"21","request":"835","impression":"835","click":"835"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"He8vDwpwWOc5WXBSv01YhNcAAsNv7cJrjRLtHf+ck46zlQ9wOvo3TBGFOStgkhbBQ6QAZQzq+JT0YJ1H1wbG+I9ktxGidu\/\/R37ybOnsCo5pMa1dZrSecSW2yu\/Yf6dB"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>12</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7042333</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.rangers.van.gangsters.chase","store":"41","uniqueDeviceID":"4337","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"12","sceneID":"11","request":"434","impression":"434","click":"434"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"tqYzQAc+ykXLyHTo+f3AG7GvkIdGBCEDVoWlk5L\/K9Y4Yqxh0L15pQpXqa3cr5+HZTQwZJVqjZvUGuH3zBr3G08q6e7xGHXqLRvyvpKeQOvoFKu+e31kP8PQEyEyJ8Fb"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"BHOWHKUIltdo604cEzWxVO41uPVGPOb+4ZIKkf4MuWgZahaSGwJtik6nel5YwCLkaf5oHu04Y9xZ9Q2Qp0Miv5ASmWo1LKDlVwlAH2GBcLCdbhEsDnKUqde2se7AKP\/O"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>13</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6972969</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.rangers.van.gangsters.chase","store":"43","uniqueDeviceID":"8557","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"14","sceneID":"22","request":"855","impression":"855","click":"855"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"BHOWHKUIltdo604cEzWxVO41uPVGPOb+4ZIKkf4MuWgZahaSGwJtik6nel5YwCLkaf5oHu04Y9xZ9Q2Qp0Miv5ASmWo1LKDlVwlAH2GBcLCdbhEsDnKUqde2se7AKP\/O"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"KS22QswiqDjiL33G492c7Dm8SeZnckTr6aK5qyYX64a4gYKeZVtU5+0uJSO6Cz3psyjuRu3NXstLJgwLwoVvjg9sFTOLGBLrs40hLyt6RqglB1mGOhSO0L5rRKp\/G2nt"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>14</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9661057</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"1.0","store":"42","uniqueDeviceID":"4414","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"15","sceneID":"12","request":"441","impression":"441","click":"441"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"KS22QswiqDjiL33G492c7Dm8SeZnckTr6aK5qyYX64a4gYKeZVtU5+0uJSO6Cz3psyjuRu3NXstLJgwLwoVvjg9sFTOLGBLrs40hLyt6RqglB1mGOhSO0L5rRKp\/G2nt"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -576,7 +354,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -588,7 +366,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -625,8 +403,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>14</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9765489</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"1.0","store":"42","uniqueDeviceID":"8355","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"15","sceneID":"21","request":"835","impression":"835","click":"835"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"He8vDwpwWOc5WXBSv01YhNcAAsNv7cJrjRLtHf+ck46zlQ9wOvo3TBGFOStgkhbBQ6QAZQzq+JT0YJ1H1wbG+I9ktxGidu\/\/R37ybOnsCo5pMa1dZrSecSW2yu\/Yf6dB"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>14</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9661057</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"1.0","store":"42","uniqueDeviceID":"4414","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"15","sceneID":"12","request":"441","impression":"441","click":"441"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"KS22QswiqDjiL33G492c7Dm8SeZnckTr6aK5qyYX64a4gYKeZVtU5+0uJSO6Cz3psyjuRu3NXstLJgwLwoVvjg9sFTOLGBLrs40hLyt6RqglB1mGOhSO0L5rRKp\/G2nt"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -634,7 +412,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -646,7 +424,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -683,8 +461,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>15</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7060475</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"42","uniqueDeviceID":"4179","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"18","sceneID":"11","request":"418","impression":"418","click":"418"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"He8vDwpwWOc5WXBSv01YhNcAAsNv7cJrjRLtHf+ck46zlQ9wOvo3TBGFOStgkhbBQ6QAZQzq+JT0YJ1H1wbG+I9ktxGidu\/\/R37ybOnsCo5pMa1dZrSecSW2yu\/Yf6dB"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"l7QvbcKJxJScuBi+27wOlu5KmMpoZlB4P703ifNR6ViTKdvZCO7n1pdqb4RlI5CFjhi49kp91xthYGTfOfWDoH0+ftKB9bcwt0rfzxdMJ6+UIJXvL1oSGtAGDMJJD9BX"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>16</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7098703</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.off.road.hill.climb","store":"41","uniqueDeviceID":"3623","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"19","sceneID":"10","request":"362","impression":"362","click":"362"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"l7QvbcKJxJScuBi+27wOlu5KmMpoZlB4P703ifNR6ViTKdvZCO7n1pdqb4RlI5CFjhi49kp91xthYGTfOfWDoH0+ftKB9bcwt0rfzxdMJ6+UIJXvL1oSGtAGDMJJD9BX"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"q7JQObvJo8B19lKfVipRuXtKcfLlNlc8yz+\/hmHncTr1ieUCSkBKFzOApNrWSwdzKm86UPacEht2SWj8yupc1qZeK5fkSgFt\/Lxh7gQ3Tb7DX\/86C6h8MQQyBIXVlruE"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>17</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7079755</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.off.road.hill.climb","store":"43","uniqueDeviceID":"1432","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"20","sceneID":"4","request":"143","impression":"143","click":"143"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"q7JQObvJo8B19lKfVipRuXtKcfLlNlc8yz+\/hmHncTr1ieUCSkBKFzOApNrWSwdzKm86UPacEht2SWj8yupc1qZeK5fkSgFt\/Lxh7gQ3Tb7DX\/86C6h8MQQyBIXVlruE"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"9FlpKOMylGOHWfJ6p9HNIrSUc1GEni1JqJ7iZEBjqRmYECHuJiSu2raWgvGLTx2Icnkyesl8Ihm9736xsjXRNtDiPags9kx48L8g\/OkU1qF6BiyEYnBDJID6Qp52H7TZ"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>18</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9700957</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.horse.simulator","store":"41","uniqueDeviceID":"9239","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"21","sceneID":"24","request":"924","impression":"924","click":"924"}],"gssdkVersion":"4.10.2","sdkVersionID":"2089","sdkVersion":"2089","sessionToken":"9FlpKOMylGOHWfJ6p9HNIrSUc1GEni1JqJ7iZEBjqRmYECHuJiSu2raWgvGLTx2Icnkyesl8Ihm9736xsjXRNtDiPags9kx48L8g\/OkU1qF6BiyEYnBDJID6Qp52H7TZ"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>15</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6972343</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.airplane.car.transporter.pilot","store":"42","uniqueDeviceID":"1874","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"18","sceneID":"5","request":"188","impression":"188","click":"188"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"KS22QswiqDjiL33G492c7Dm8SeZnckTr6aK5qyYX64a4gYKeZVtU5+0uJSO6Cz3psyjuRu3NXstLJgwLwoVvjg9sFTOLGBLrs40hLyt6RqglB1mGOhSO0L5rRKp\/G2nt"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"GP\/X2UVSEP8XZnMvT14tWoxZZx7dKJ+KM9r\/MmBqn6RsTqEEa7\/bR5kJEkEvTEiyIDW6fzjaWVTDC\/d9ZxVk892chS3cH3Lz1lzJcAfu5Rzg0XB9U+z0BHhGWGfTMzDQ"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>16</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7094759</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.off.road.hill.climb","store":"41","uniqueDeviceID":"7729","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"19","sceneID":"20","request":"773","impression":"773","click":"773"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"GP\/X2UVSEP8XZnMvT14tWoxZZx7dKJ+KM9r\/MmBqn6RsTqEEa7\/bR5kJEkEvTEiyIDW6fzjaWVTDC\/d9ZxVk892chS3cH3Lz1lzJcAfu5Rzg0XB9U+z0BHhGWGfTMzDQ"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"3kU7B+4FqF6sTjrbZtp\/0+vCUCuFhjfKxzFnrHBSi1Tk7Fyn8GcCL6x7zqXK4pT48wh2FmuxqYH96TPbaiDkwCM2nMMx2Jr\/8aVLVpx7\/mriYnVkd\/S9MhuBwX3ZKa5x"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>17</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6966240</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.off.road.hill.climb","store":"43","uniqueDeviceID":"5538","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"20","sceneID":"14","request":"554","impression":"554","click":"554"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"3kU7B+4FqF6sTjrbZtp\/0+vCUCuFhjfKxzFnrHBSi1Tk7Fyn8GcCL6x7zqXK4pT48wh2FmuxqYH96TPbaiDkwCM2nMMx2Jr\/8aVLVpx7\/mriYnVkd\/S9MhuBwX3ZKa5x"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"3+j74tIhnKkoGlOqoHcxgnJngnE+\/Lj19RsaKX7T+I3W1KuNCk2TqAyHPXBt9sWCzvvHzDOgEzsbDlX4kRrH\/DnFMsCAcJ\/u7DQk8fjt5WXlHggB72dKNKIH8nt2DZO8"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>18</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9784735</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.horse.simulator","store":"41","uniqueDeviceID":"9758","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"21","sceneID":"25","request":"975","impression":"975","click":"975"}],"gssdkVersion":"4.10.2","sdkVersionID":"2089","sdkVersion":"2089","sessionToken":"3+j74tIhnKkoGlOqoHcxgnJngnE+\/Lj19RsaKX7T+I3W1KuNCk2TqAyHPXBt9sWCzvvHzDOgEzsbDlX4kRrH\/DnFMsCAcJ\/u7DQk8fjt5WXlHggB72dKNKIH8nt2DZO8"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -692,7 +470,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -704,7 +482,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -741,8 +519,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>18</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9700957</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.horse.simulator","store":"41","uniqueDeviceID":"9239","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"21","sceneID":"24","request":"924","impression":"924","click":"924"}],"gssdkVersion":"4.10.2","sdkVersionID":"2089","sdkVersion":"2089","sessionToken":"9FlpKOMylGOHWfJ6p9HNIrSUc1GEni1JqJ7iZEBjqRmYECHuJiSu2raWgvGLTx2Icnkyesl8Ihm9736xsjXRNtDiPags9kx48L8g\/OkU1qF6BiyEYnBDJID6Qp52H7TZ"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>18</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9784735</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.horse.simulator","store":"41","uniqueDeviceID":"9758","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"21","sceneID":"25","request":"975","impression":"975","click":"975"}],"gssdkVersion":"4.10.2","sdkVersionID":"2089","sdkVersion":"2089","sessionToken":"3+j74tIhnKkoGlOqoHcxgnJngnE+\/Lj19RsaKX7T+I3W1KuNCk2TqAyHPXBt9sWCzvvHzDOgEzsbDlX4kRrH\/DnFMsCAcJ\/u7DQk8fjt5WXlHggB72dKNKIH8nt2DZO8"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -750,7 +528,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -762,7 +540,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -799,8 +577,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>19</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7149775</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.police.dog.simulator","store":"41","uniqueDeviceID":"6699","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"22","sceneID":"17","request":"670","impression":"670","click":"670"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"9FlpKOMylGOHWfJ6p9HNIrSUc1GEni1JqJ7iZEBjqRmYECHuJiSu2raWgvGLTx2Icnkyesl8Ihm9736xsjXRNtDiPags9kx48L8g\/OkU1qF6BiyEYnBDJID6Qp52H7TZ"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"Pkz1U4vY+iQkw5zho7AM2gAwKuqcGJnrIlObKOIrgnX1mhtGFByaJklAZ7ZiW37CAIJlew5SmXfLhLGtFGdMMZyzaiUzPXbRpbUgxdOF4jRFcBKI7WsiTfzJlkJG89MY"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>20</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7041307</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.police.dog.simulator","store":"43","uniqueDeviceID":"4507","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"23","sceneID":"12","request":"451","impression":"451","click":"451"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"Pkz1U4vY+iQkw5zho7AM2gAwKuqcGJnrIlObKOIrgnX1mhtGFByaJklAZ7ZiW37CAIJlew5SmXfLhLGtFGdMMZyzaiUzPXbRpbUgxdOF4jRFcBKI7WsiTfzJlkJG89MY"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"M6o0KMQcn1qhaEgUVH7pV4K\/BZm0jqxO8TeqqCe8MjylYbsZs7eNmTwzc\/lSRacLkTipGpS9k042iDLaMvUWSiCt\/P8m9XkrIMA1+r22L5w6W3WKetAfe1Er+j8yyejP"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>21</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7437388</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.city.bus.driver.simulator","store":"41","uniqueDeviceID":"3952","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"24","sceneID":"10","request":"395","impression":"395","click":"395"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"M6o0KMQcn1qhaEgUVH7pV4K\/BZm0jqxO8TeqqCe8MjylYbsZs7eNmTwzc\/lSRacLkTipGpS9k042iDLaMvUWSiCt\/P8m9XkrIMA1+r22L5w6W3WKetAfe1Er+j8yyejP"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"uOuoypMxvwm2fvn0NWLANBMNrL9AXbWpzMdugo7gBGjxOeQD12u2BPe6dMiFqA2u4WNsfIq54+YCeS4\/G1Kksok\/Omgp0VE3pZqSuVxz9YQfNv2AjWDWplzoyM+IIXIg"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>22</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6890445</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.city.bus.driver.simulator","store":"42","uniqueDeviceID":"3712","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"25","sceneID":"10","request":"371","impression":"371","click":"371"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"uOuoypMxvwm2fvn0NWLANBMNrL9AXbWpzMdugo7gBGjxOeQD12u2BPe6dMiFqA2u4WNsfIq54+YCeS4\/G1Kksok\/Omgp0VE3pZqSuVxz9YQfNv2AjWDWplzoyM+IIXIg"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"\/0mYRa\/FP+tqL33icttmCeh\/8PGwRyGqXm2GyB0xk3NVBPNwg6Vg5Spnng9Kw1TF0cY953iQqO8ghculd54cBXF3G8uZH79aRh0X\/VAeivqB2+ceOykT7dTgyJ\/FcZpv"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>23</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6830098</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.share.attack.survival.simulator","store":"42","uniqueDeviceID":"9567","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"26","sceneID":"24","request":"956","impression":"956","click":"956"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"\/0mYRa\/FP+tqL33icttmCeh\/8PGwRyGqXm2GyB0xk3NVBPNwg6Vg5Spnng9Kw1TF0cY953iQqO8ghculd54cBXF3G8uZH79aRh0X\/VAeivqB2+ceOykT7dTgyJ\/FcZpv"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"L1n8bSyZjZisMbb6jphyhSeyLweQ9JLsjhN2gZrF8hqjGsEyEqxQKwsYkRGOn9Rfp7LCg8U3dPd82R9+6o7kczc89VOExLSFYBPawcPyE1vMUtW9pfXlCCFXNWN1jldB"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>24</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9880296</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.wild.hungry.wolves","store":"41","uniqueDeviceID":"5424","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"27","sceneID":"14","request":"542","impression":"542","click":"542"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"L1n8bSyZjZisMbb6jphyhSeyLweQ9JLsjhN2gZrF8hqjGsEyEqxQKwsYkRGOn9Rfp7LCg8U3dPd82R9+6o7kczc89VOExLSFYBPawcPyE1vMUtW9pfXlCCFXNWN1jldB"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>19</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6946890</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.police.dog.simulator","store":"41","uniqueDeviceID":"9169","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"22","sceneID":"23","request":"917","impression":"917","click":"917"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"3+j74tIhnKkoGlOqoHcxgnJngnE+\/Lj19RsaKX7T+I3W1KuNCk2TqAyHPXBt9sWCzvvHzDOgEzsbDlX4kRrH\/DnFMsCAcJ\/u7DQk8fjt5WXlHggB72dKNKIH8nt2DZO8"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"cFpMgLYQmWjusTz3qKGiDj7dy5WfhT+03YDxTKaLFXoakYGWqhFDS6OUTWpyo1UOOeyiepDaxdxVqviInv4c97Zu2y3Wysr7ISr2JqUmOBImKW5hLXx7h+dRbz52RcQG"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>20</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7095114</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.police.dog.simulator","store":"43","uniqueDeviceID":"8613","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"23","sceneID":"22","request":"861","impression":"861","click":"861"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"cFpMgLYQmWjusTz3qKGiDj7dy5WfhT+03YDxTKaLFXoakYGWqhFDS6OUTWpyo1UOOeyiepDaxdxVqviInv4c97Zu2y3Wysr7ISr2JqUmOBImKW5hLXx7h+dRbz52RcQG"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"pYz+CvOTCyXFiGXWEJBB7Bxqf6TtmHv7Hb4Z+1AQS9oIdk28MMGoLdoVtXALW0toigSz2ZkxdxxqVkFlRf4+ZzW98cNhHFdTg24SmhcOVT\/u0AJ0VNhl4Fkc3qZF+4Xq"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>21</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7025514</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.city.bus.driver.simulator","store":"41","uniqueDeviceID":"6422","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"24","sceneID":"17","request":"642","impression":"642","click":"642"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"pYz+CvOTCyXFiGXWEJBB7Bxqf6TtmHv7Hb4Z+1AQS9oIdk28MMGoLdoVtXALW0toigSz2ZkxdxxqVkFlRf4+ZzW98cNhHFdTg24SmhcOVT\/u0AJ0VNhl4Fkc3qZF+4Xq"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"0\/rYgHogqoLux90Cl3B7zCtUhQYKyyP5j2OP200DD0uM3NPfYO0hIZWFaXqkfZNfP2E+uQ5RzfGJfoT+qIGCAVyJg0quPMCX5cHBurgZnpA0lPNs7w1Jpm\/+6QU+SFBO"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>22</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7224824</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.city.bus.driver.simulator","store":"42","uniqueDeviceID":"642","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"25","sceneID":"2","request":"65","impression":"65","click":"65"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"0\/rYgHogqoLux90Cl3B7zCtUhQYKyyP5j2OP200DD0uM3NPfYO0hIZWFaXqkfZNfP2E+uQ5RzfGJfoT+qIGCAVyJg0quPMCX5cHBurgZnpA0lPNs7w1Jpm\/+6QU+SFBO"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"tCuiGKVqtT09C0dKjqcRnSblXfqtqY9mkaq44oGfELAEA7OJ+3zczfiEcz3U\/2ohtt4+ljwxktgWO5CUlc3RZpl5gsiMSZew1iwd\/5oMlSmASFxsJeaBuK8PTFjMBOEd"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>23</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7023422</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.share.attack.survival.simulator","store":"42","uniqueDeviceID":"3675","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"26","sceneID":"10","request":"368","impression":"368","click":"368"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"tCuiGKVqtT09C0dKjqcRnSblXfqtqY9mkaq44oGfELAEA7OJ+3zczfiEcz3U\/2ohtt4+ljwxktgWO5CUlc3RZpl5gsiMSZew1iwd\/5oMlSmASFxsJeaBuK8PTFjMBOEd"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"cQH7phhGwFn421FQ+pnWff1H9qfF0flzxhws24IK8+YwrZ8+KRhlutVmkiAYvmlg9ghQHfkbFa9YcvxhBahMlkGqMyBJvW+rZJqvM7CP6Ov0bzdHPTizRyvp5B+M8bWE"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>24</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9760112</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.wild.hungry.wolves","store":"41","uniqueDeviceID":"7894","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"27","sceneID":"20","request":"789","impression":"789","click":"789"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"cQH7phhGwFn421FQ+pnWff1H9qfF0flzxhws24IK8+YwrZ8+KRhlutVmkiAYvmlg9ghQHfkbFa9YcvxhBahMlkGqMyBJvW+rZJqvM7CP6Ov0bzdHPTizRyvp5B+M8bWE"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -808,7 +586,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -820,7 +598,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -857,8 +635,8 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>24</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9880296</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.wild.hungry.wolves","store":"41","uniqueDeviceID":"5424","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"27","sceneID":"14","request":"542","impression":"542","click":"542"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"L1n8bSyZjZisMbb6jphyhSeyLweQ9JLsjhN2gZrF8hqjGsEyEqxQKwsYkRGOn9Rfp7LCg8U3dPd82R9+6o7kczc89VOExLSFYBPawcPyE1vMUtW9pfXlCCFXNWN1jldB"}</td><td style='width:1000px;border: 1px solid #ccc'>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>24</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9760112</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.threed.wild.hungry.wolves","store":"41","uniqueDeviceID":"7894","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"27","sceneID":"20","request":"789","impression":"789","click":"789"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"cQH7phhGwFn421FQ+pnWff1H9qfF0flzxhws24IK8+YwrZ8+KRhlutVmkiAYvmlg9ghQHfkbFa9YcvxhBahMlkGqMyBJvW+rZJqvM7CP6Ov0bzdHPTizRyvp5B+M8bWE"}</td><td style='width:1000px;border: 1px solid #ccc'>
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -866,7 +644,7 @@
 <p>Severity: Notice</p>
 <p>Message:  Undefined offset: 0</p>
 <p>Filename: controllers/Mediation.php</p>
-<p>Line Number: 623</p>
+<p>Line Number: 592</p>
 
 
 	<p>Backtrace:</p>
@@ -878,7 +656,7 @@
 		
 			<p style="margin-left:10px">
 			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
-			Line: 623<br />
+			Line: 592<br />
 			Function: _error_handler			</p>
 
 		
@@ -915,1337 +693,5 @@
 	
 
 </div><br />
-<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>623</b><br />
-{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>25</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7423778</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.counter.terrorist.force","store":"41","uniqueDeviceID":"4836","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"28","sceneID":"13","request":"484","impression":"484","click":"484"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"L1n8bSyZjZisMbb6jphyhSeyLweQ9JLsjhN2gZrF8hqjGsEyEqxQKwsYkRGOn9Rfp7LCg8U3dPd82R9+6o7kczc89VOExLSFYBPawcPyE1vMUtW9pfXlCCFXNWN1jldB"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"wkUXxdTqW4YIRBOjqjofSJvQZ4TKD7SbWrjpR6\/9VYOXiKGjMlxPXx672L9RGWh3akwp8PFqXRdvfusdNer2PCjEnDNl2wZAZy67zfLH1q9B7NtuFRp6pgNaRpxlM406"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>26</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6885024</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.sniper.shooter","store":"41","uniqueDeviceID":"4596","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"29","sceneID":"12","request":"460","impression":"460","click":"460"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","sessionToken":"wkUXxdTqW4YIRBOjqjofSJvQZ4TKD7SbWrjpR6\/9VYOXiKGjMlxPXx672L9RGWh3akwp8PFqXRdvfusdNer2PCjEnDNl2wZAZy67zfLH1q9B7NtuFRp6pgNaRpxlM406"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"iV9KK\/TUu1+SbFecaOYH4XW4lE9rQNf6z2IrBZWQYAh3VEzN0dvDq+iPyFGm+RDg8nK2Ccu\/\/zxuphdMUVOSsHsP7MwaQOHO8ELZyHzeh5bOnMxy5XLPV5Knl8MhLQDE"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>27</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7025689</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.dinosaur3Dsimulator","store":"42","uniqueDeviceID":"4040","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"30","sceneID":"11","request":"404","impression":"404","click":"404"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"iV9KK\/TUu1+SbFecaOYH4XW4lE9rQNf6z2IrBZWQYAh3VEzN0dvDq+iPyFGm+RDg8nK2Ccu\/\/zxuphdMUVOSsHsP7MwaQOHO8ELZyHzeh5bOnMxy5XLPV5Knl8MhLQDE"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"DGvu7i25LJvSEGTEwvn98FOq4cfzIJ6P2xboKnyL8ZI9PToF9NXFqsE7Pr2JhuVXzmcl9T0OnNWGAEqpgZs63AnDnDwpD6tJ6i7MXD45twRq25uv2JrHeUsig4vJqOSl"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>28</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7039566</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.loin3Dsimulator","store":"41","uniqueDeviceID":"8260","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"31","sceneID":"21","request":"826","impression":"826","click":"826"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"DGvu7i25LJvSEGTEwvn98FOq4cfzIJ6P2xboKnyL8ZI9PToF9NXFqsE7Pr2JhuVXzmcl9T0OnNWGAEqpgZs63AnDnDwpD6tJ6i7MXD45twRq25uv2JrHeUsig4vJqOSl"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"0wTIsiYSgpJASj3dB4NsV6+1mk\/32Uildi9b7P68Z5VJQiycOwRY32189ScmzUMf94WQ4t1g1iPeQXzsVHLjbq5G6ZB5+4CFS4rcl3Qhd9XCJljv3\/hipL8BNwEzkOTZ"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>29</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7335802</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.wolf3Dsimulator","store":"42","uniqueDeviceID":"7704","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"32","sceneID":"20","request":"770","impression":"770","click":"770"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"0wTIsiYSgpJASj3dB4NsV6+1mk\/32Uildi9b7P68Z5VJQiycOwRY32189ScmzUMf94WQ4t1g1iPeQXzsVHLjbq5G6ZB5+4CFS4rcl3Qhd9XCJljv3\/hipL8BNwEzkOTZ"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"Y74nxXDP4QEMKPyE7f0mrIaI0rp\/xEJFA8acNAueIAIC3QPNnzDGAnosSJsP3cHjyi57LHUaXAWIKz4\/e5mnDSUiyh2SLhlBXqER\/etgTL1\/fdSESTx0e2Cg+Mb0rrCE"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>30</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6989912</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.horse3Dsimulator","store":"41","uniqueDeviceID":"3877","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"33","sceneID":"10","request":"388","impression":"388","click":"388"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"Y74nxXDP4QEMKPyE7f0mrIaI0rp\/xEJFA8acNAueIAIC3QPNnzDGAnosSJsP3cHjyi57LHUaXAWIKz4\/e5mnDSUiyh2SLhlBXqER\/etgTL1\/fdSESTx0e2Cg+Mb0rrCE"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"4dNj5\/bQf4i2aCy646+zrrAoSI4rfgWc1UJtn7HLwwArB8XDdKiEThHMLgA\/laBwRITSPQzL4g57W5z+Vp\/Dz5RpJWkg4VkGufTY16EUynsTXbTSABX2lG0ITNHaJv6T"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>31</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0862839</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.containertruck3Dsimulator","store":"41","uniqueDeviceID":"3321","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"34","sceneID":"9","request":"332","impression":"332","click":"332"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"4dNj5\/bQf4i2aCy646+zrrAoSI4rfgWc1UJtn7HLwwArB8XDdKiEThHMLgA\/laBwRITSPQzL4g57W5z+Vp\/Dz5RpJWkg4VkGufTY16EUynsTXbTSABX2lG0ITNHaJv6T"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>31</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0862839</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.containertruck3Dsimulator","store":"41","uniqueDeviceID":"3321","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"34","sceneID":"9","request":"332","impression":"332","click":"332"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"4dNj5\/bQf4i2aCy646+zrrAoSI4rfgWc1UJtn7HLwwArB8XDdKiEThHMLgA\/laBwRITSPQzL4g57W5z+Vp\/Dz5RpJWkg4VkGufTY16EUynsTXbTSABX2lG0ITNHaJv6T"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>31</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0862839</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.containertruck3Dsimulator","store":"41","uniqueDeviceID":"3321","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"34","sceneID":"9","request":"332","impression":"332","click":"332"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"4dNj5\/bQf4i2aCy646+zrrAoSI4rfgWc1UJtn7HLwwArB8XDdKiEThHMLgA\/laBwRITSPQzL4g57W5z+Vp\/Dz5RpJWkg4VkGufTY16EUynsTXbTSABX2lG0ITNHaJv6T"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>32</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7081433</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.pizzamaker","store":"41","uniqueDeviceID":"9318","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"35","sceneID":"24","request":"931","impression":"931","click":"931"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"4dNj5\/bQf4i2aCy646+zrrAoSI4rfgWc1UJtn7HLwwArB8XDdKiEThHMLgA\/laBwRITSPQzL4g57W5z+Vp\/Dz5RpJWkg4VkGufTY16EUynsTXbTSABX2lG0ITNHaJv6T"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"qRlEoZp0k60Q5URCrfsb7MKv4WNpgH5DqrmxO+pikTNOoxNXLqn1mPyj\/c+BUWZlpTkYCddGISGQiXg6Z5rTEqoVjzqVscq389cBksKI9wyFWdHLFMqzK5WooVRyl53e"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>33</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1437490</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.monstertruckparking","store":"41","uniqueDeviceID":"716","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"36","sceneID":"2","request":"72","impression":"72","click":"72"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"qRlEoZp0k60Q5URCrfsb7MKv4WNpgH5DqrmxO+pikTNOoxNXLqn1mPyj\/c+BUWZlpTkYCddGISGQiXg6Z5rTEqoVjzqVscq389cBksKI9wyFWdHLFMqzK5WooVRyl53e"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>33</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1437490</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.monstertruckparking","store":"41","uniqueDeviceID":"716","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"36","sceneID":"2","request":"72","impression":"72","click":"72"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"qRlEoZp0k60Q5URCrfsb7MKv4WNpgH5DqrmxO+pikTNOoxNXLqn1mPyj\/c+BUWZlpTkYCddGISGQiXg6Z5rTEqoVjzqVscq389cBksKI9wyFWdHLFMqzK5WooVRyl53e"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>33</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1437490</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.monstertruckparking","store":"41","uniqueDeviceID":"716","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"36","sceneID":"2","request":"72","impression":"72","click":"72"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"qRlEoZp0k60Q5URCrfsb7MKv4WNpgH5DqrmxO+pikTNOoxNXLqn1mPyj\/c+BUWZlpTkYCddGISGQiXg6Z5rTEqoVjzqVscq389cBksKI9wyFWdHLFMqzK5WooVRyl53e"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>34</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7510871</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.icecreammaker","store":"42","uniqueDeviceID":"3125","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"37","sceneID":"8","request":"313","impression":"313","click":"313"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","sessionToken":"qRlEoZp0k60Q5URCrfsb7MKv4WNpgH5DqrmxO+pikTNOoxNXLqn1mPyj\/c+BUWZlpTkYCddGISGQiXg6Z5rTEqoVjzqVscq389cBksKI9wyFWdHLFMqzK5WooVRyl53e"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"FwfOGYcosAXum2CEQnFH33r3epQvMAsXW8v7++uoC5nkXI5SjS63OilGumaxez7qLsZ3wXqD8579qvFhtbaJUhMnzRw4t8FV3hSWPx23Vr87ISapqdUC5p8HxVncK5eO"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>35</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0924956</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.gangstercar3Dsimulator","store":"41","uniqueDeviceID":"8109","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"38","sceneID":"21","request":"811","impression":"811","click":"811"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"FwfOGYcosAXum2CEQnFH33r3epQvMAsXW8v7++uoC5nkXI5SjS63OilGumaxez7qLsZ3wXqD8579qvFhtbaJUhMnzRw4t8FV3hSWPx23Vr87ISapqdUC5p8HxVncK5eO"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>35</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0924956</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.gangstercar3Dsimulator","store":"41","uniqueDeviceID":"8109","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"38","sceneID":"21","request":"811","impression":"811","click":"811"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"FwfOGYcosAXum2CEQnFH33r3epQvMAsXW8v7++uoC5nkXI5SjS63OilGumaxez7qLsZ3wXqD8579qvFhtbaJUhMnzRw4t8FV3hSWPx23Vr87ISapqdUC5p8HxVncK5eO"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>35</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0924956</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.gangstercar3Dsimulator","store":"41","uniqueDeviceID":"8109","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"38","sceneID":"21","request":"811","impression":"811","click":"811"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"FwfOGYcosAXum2CEQnFH33r3epQvMAsXW8v7++uoC5nkXI5SjS63OilGumaxez7qLsZ3wXqD8579qvFhtbaJUhMnzRw4t8FV3hSWPx23Vr87ISapqdUC5p8HxVncK5eO"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>36</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7329338</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.car.stunts.simulator","store":"41","uniqueDeviceID":"4979","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"39","sceneID":"13","request":"498","impression":"498","click":"498"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"FwfOGYcosAXum2CEQnFH33r3epQvMAsXW8v7++uoC5nkXI5SjS63OilGumaxez7qLsZ3wXqD8579qvFhtbaJUhMnzRw4t8FV3hSWPx23Vr87ISapqdUC5p8HxVncK5eO"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"DzgD72xUj2\/IW5SelNITdwt6PUT2uNP8U9wTQl3tSNZ3IgtrkT5mDM0sNcjLkDzLQnofHMacK2lEz86zI+jQS4j5eUL8VxRAE26n3UwYBg4B+uqD9EVCO3exKjlJpITh"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>37</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6708646</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.car.stunts.simulator","store":"43","uniqueDeviceID":"6376","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"40","sceneID":"16","request":"637","impression":"637","click":"637"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"DzgD72xUj2\/IW5SelNITdwt6PUT2uNP8U9wTQl3tSNZ3IgtrkT5mDM0sNcjLkDzLQnofHMacK2lEz86zI+jQS4j5eUL8VxRAE26n3UwYBg4B+uqD9EVCO3exKjlJpITh"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"4Qox+xJqE0CmLVnUe5ZaPcjn568\/5z0nsWO2PRPN+Mh8WKJ7bz8DVNI2blaZndIwwe5td6yoTesercfjbAYxIuiLloTN2bpZL4o7zhaeUm\/qdQPHgM7A++TND7WBGVs9"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>38</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6900379</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.sand.excavator.truck.simulator","store":"42","uniqueDeviceID":"281","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"41","sceneID":"1","request":"28","impression":"28","click":"28"}],"gssdkVersion":"3.2.2","sdkVersionID":"60","sdkVersion":"60","sessionToken":"4Qox+xJqE0CmLVnUe5ZaPcjn568\/5z0nsWO2PRPN+Mh8WKJ7bz8DVNI2blaZndIwwe5td6yoTesercfjbAYxIuiLloTN2bpZL4o7zhaeUm\/qdQPHgM7A++TND7WBGVs9"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"NE\/VkKA4U3jFPXVlMK0NZUCT+7o+yhBTKKl9CTkdwMmRiZy5BBlGbUQ1QS\/szQ+sO1NHVV9iDoC6B5ePzBPsPQYAzSNh0VicoT15EjSsoWhCyTk\/e+4OaVbVTlvSgHJw"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>39</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6794560</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.heavy.excavator.truck.simulator","store":"41","uniqueDeviceID":"913","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"42","sceneID":"3","request":"92","impression":"92","click":"92"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"NE\/VkKA4U3jFPXVlMK0NZUCT+7o+yhBTKKl9CTkdwMmRiZy5BBlGbUQ1QS\/szQ+sO1NHVV9iDoC6B5ePzBPsPQYAzSNh0VicoT15EjSsoWhCyTk\/e+4OaVbVTlvSgHJw"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"DtL\/bEUs9zsMGmZhj8eWF8dERQz4hWqhTiWP85YbS+C1wk53gJoiaiPRLsl1gR7C2uh0aYX35iBNZzPRpJgOTT5bQlsHafogTDEsaImea4W7swC2QNKk40SewSIpbExG"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>40</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6892352</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.plow.tractor.farming","store":"41","uniqueDeviceID":"4817","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"43","sceneID":"13","request":"482","impression":"482","click":"482"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"DtL\/bEUs9zsMGmZhj8eWF8dERQz4hWqhTiWP85YbS+C1wk53gJoiaiPRLsl1gR7C2uh0aYX35iBNZzPRpJgOTT5bQlsHafogTDEsaImea4W7swC2QNKk40SewSIpbExG"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"8eG5Gb4nM8rS57YXjC4Z3F43IXyFTHwi5YOpDA5QUrEZQ+hl\/FRrAKJamwpwJIdoUW1aplzd5D+iP\/yA5HW0D0GlRUAWG72cki92mX4vGBFgZCFZQ7+45o8e1pd+0Nrz"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>41</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6839368</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.cargo.train.transporter","store":"41","uniqueDeviceID":"673","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"44","sceneID":"2","request":"68","impression":"68","click":"68"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"8eG5Gb4nM8rS57YXjC4Z3F43IXyFTHwi5YOpDA5QUrEZQ+hl\/FRrAKJamwpwJIdoUW1aplzd5D+iP\/yA5HW0D0GlRUAWG72cki92mX4vGBFgZCFZQ7+45o8e1pd+0Nrz"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"YnGhbF0fE92WaGSab93S92g4fpG5cTPmS0DGFtRDXnsiSZAuvkPcnnP3Yrn38meH49UdRk98mEgyhYddGrMIERzo5EK2qNq2enzaWpk0f7z0rZRCi6viXuBkVllrQkq8"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>42</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6828359</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.cargo.train.transporter","store":"43","uniqueDeviceID":"2941","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"45","sceneID":"8","request":"294","impression":"294","click":"294"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"YnGhbF0fE92WaGSab93S92g4fpG5cTPmS0DGFtRDXnsiSZAuvkPcnnP3Yrn38meH49UdRk98mEgyhYddGrMIERzo5EK2qNq2enzaWpk0f7z0rZRCi6viXuBkVllrQkq8"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"sWMUY+c5ztOXKkE4XneqJ06Ii5gv2vFSQ7SWOYnehZqI5fRP2tn72Fi9sMAZdP+uV6GFTg6p+N+tIsyID8s6ayCnr32qqxO3H+6CBzsUoD84A7pjV50tESPCLk6RE7UR"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>43</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0707455</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.police.bike.racing.moto","store":"41","uniqueDeviceID":"5210","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"46","sceneID":"14","request":"521","impression":"521","click":"521"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"sWMUY+c5ztOXKkE4XneqJ06Ii5gv2vFSQ7SWOYnehZqI5fRP2tn72Fi9sMAZdP+uV6GFTg6p+N+tIsyID8s6ayCnr32qqxO3H+6CBzsUoD84A7pjV50tESPCLk6RE7UR"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>43</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0707455</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.police.bike.racing.moto","store":"41","uniqueDeviceID":"5210","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"46","sceneID":"14","request":"521","impression":"521","click":"521"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"sWMUY+c5ztOXKkE4XneqJ06Ii5gv2vFSQ7SWOYnehZqI5fRP2tn72Fi9sMAZdP+uV6GFTg6p+N+tIsyID8s6ayCnr32qqxO3H+6CBzsUoD84A7pjV50tESPCLk6RE7UR"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>43</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0707455</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.police.bike.racing.moto","store":"41","uniqueDeviceID":"5210","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"46","sceneID":"14","request":"521","impression":"521","click":"521"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"sWMUY+c5ztOXKkE4XneqJ06Ii5gv2vFSQ7SWOYnehZqI5fRP2tn72Fi9sMAZdP+uV6GFTg6p+N+tIsyID8s6ayCnr32qqxO3H+6CBzsUoD84A7pjV50tESPCLk6RE7UR"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>44</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7594948</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.jet.fighter.vs.tank.attack.action","store":"41","uniqueDeviceID":"892","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"47","sceneID":"3","request":"90","impression":"90","click":"90"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"sWMUY+c5ztOXKkE4XneqJ06Ii5gv2vFSQ7SWOYnehZqI5fRP2tn72Fi9sMAZdP+uV6GFTg6p+N+tIsyID8s6ayCnr32qqxO3H+6CBzsUoD84A7pjV50tESPCLk6RE7UR"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"nT90zrVsTlHlLXaGjRwI01tq8Jt5LXeaQHQ2BGF7NVsI1mSB8v\/GKZ8PUz9kJ2\/SXogIl5RxPDnZywVMjfvY7x\/h7Zc4f4GVevkONjt+ZD0mBt5xKXR8+E6fTlMXqtFz"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>45</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0867138</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.ninja.warrior.attack.action","store":"41","uniqueDeviceID":"2604","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"48","sceneID":"7","request":"261","impression":"261","click":"261"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"nT90zrVsTlHlLXaGjRwI01tq8Jt5LXeaQHQ2BGF7NVsI1mSB8v\/GKZ8PUz9kJ2\/SXogIl5RxPDnZywVMjfvY7x\/h7Zc4f4GVevkONjt+ZD0mBt5xKXR8+E6fTlMXqtFz"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>45</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0867138</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.ninja.warrior.attack.action","store":"41","uniqueDeviceID":"2604","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"48","sceneID":"7","request":"261","impression":"261","click":"261"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"nT90zrVsTlHlLXaGjRwI01tq8Jt5LXeaQHQ2BGF7NVsI1mSB8v\/GKZ8PUz9kJ2\/SXogIl5RxPDnZywVMjfvY7x\/h7Zc4f4GVevkONjt+ZD0mBt5xKXR8+E6fTlMXqtFz"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>45</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.0867138</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.ninja.warrior.attack.action","store":"41","uniqueDeviceID":"2604","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"48","sceneID":"7","request":"261","impression":"261","click":"261"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"nT90zrVsTlHlLXaGjRwI01tq8Jt5LXeaQHQ2BGF7NVsI1mSB8v\/GKZ8PUz9kJ2\/SXogIl5RxPDnZywVMjfvY7x\/h7Zc4f4GVevkONjt+ZD0mBt5xKXR8+E6fTlMXqtFz"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>46</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1010706</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.sand.excavator.transporter.simulator","store":"41","uniqueDeviceID":"8286","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"49","sceneID":"21","request":"828","impression":"828","click":"828"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"nT90zrVsTlHlLXaGjRwI01tq8Jt5LXeaQHQ2BGF7NVsI1mSB8v\/GKZ8PUz9kJ2\/SXogIl5RxPDnZywVMjfvY7x\/h7Zc4f4GVevkONjt+ZD0mBt5xKXR8+E6fTlMXqtFz"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>46</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1010706</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.sand.excavator.transporter.simulator","store":"41","uniqueDeviceID":"8286","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"49","sceneID":"21","request":"828","impression":"828","click":"828"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"nT90zrVsTlHlLXaGjRwI01tq8Jt5LXeaQHQ2BGF7NVsI1mSB8v\/GKZ8PUz9kJ2\/SXogIl5RxPDnZywVMjfvY7x\/h7Zc4f4GVevkONjt+ZD0mBt5xKXR8+E6fTlMXqtFz"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>46</td><td style='width:2000px;border: 1px solid #ccc'>00:00:01.1010706</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.sand.excavator.transporter.simulator","store":"41","uniqueDeviceID":"8286","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"49","sceneID":"21","request":"828","impression":"828","click":"828"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"nT90zrVsTlHlLXaGjRwI01tq8Jt5LXeaQHQ2BGF7NVsI1mSB8v\/GKZ8PUz9kJ2\/SXogIl5RxPDnZywVMjfvY7x\/h7Zc4f4GVevkONjt+ZD0mBt5xKXR8+E6fTlMXqtFz"}</td><td style='width:1000px;border: 1px solid #ccc'>
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php on line 25 and defined</p>
-<p>Filename: libraries/Redis.php</p>
-<p>Line Number: 12</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/libraries/Redis.php<br />
-			Line: 12<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Cacheprovider_model.php<br />
-			Line: 25<br />
-			Function: config			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/third_party/MX/Loader.php<br />
-			Line: 211<br />
-			Function: __construct			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3/modules/mediation/controllers/Mediation.php<br />
-			Line: 18<br />
-			Function: model			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/2.0.3.php<br />
-			Line: 306<br />
-			Function: require_once			</p>
-
-		
-	
-		
-			<p style="margin-left:10px">
-			File: /var/www/html/sheeda/admin/index.php<br />
-			Line: 69<br />
-			Function: require			</p>
-
-		
-	
-
-</div><br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-<br />
-<b>Warning</b>:  Missing argument 1 for Redis::config(), called in /var/www/html/sheeda/admin/2.0.3/modules/redismanager/models/Queueprovider_model.php on line 28 and defined in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>12</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: connectionString in <b>/var/www/html/sheeda/admin/2.0.3/libraries/Redis.php</b> on line <b>13</b><br />
-{"status":false,"error":{"classname":"Predis\\Connection\\ConnectionException","message":"php_network_getaddresses: getaddrinfo failed: Name or service not known [tcp:\/\/:6379]"}}</td><td style='width:2000px;border: 1px solid #ccc'>InternalServerError</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>47</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7678762</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.crime.city.vendetta.simulator","store":"41","uniqueDeviceID":"8744","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"50","sceneID":"22","request":"874","impression":"874","click":"874"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"nT90zrVsTlHlLXaGjRwI01tq8Jt5LXeaQHQ2BGF7NVsI1mSB8v\/GKZ8PUz9kJ2\/SXogIl5RxPDnZywVMjfvY7x\/h7Zc4f4GVevkONjt+ZD0mBt5xKXR8+E6fTlMXqtFz"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"khFmcEusX4wlRI6Pz1f5AVQxWzw6cLT+\/m8OSzTMsncPLAZ\/42DrkUynnYtq64l0YZ407pg2WecqVrqXm0Ix6Y5081+1UKGn4IVYuObk4d\/wP5fYq\/xYiUoDpdtyD6rw"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>48</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6874418</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.city.construction.road.builder","store":"41","uniqueDeviceID":"457","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"52","sceneID":"2","request":"46","impression":"46","click":"46"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"khFmcEusX4wlRI6Pz1f5AVQxWzw6cLT+\/m8OSzTMsncPLAZ\/42DrkUynnYtq64l0YZ407pg2WecqVrqXm0Ix6Y5081+1UKGn4IVYuObk4d\/wP5fYq\/xYiUoDpdtyD6rw"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"wqawkmp7NiIPQDSamAyw9CUGgtd0jZQdqM1jEzsvRMblXxZ9ZqZWfGaJ0cXTZwVyp\/6AmJ5yDxwlM4f7B9NBlQHHq8WyQyJd\/w7iEyNoNKM+nFMshHTDX7qsU2+vYOyq"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>49</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6899041</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.airplane.cargo.truck.simulator","store":"41","uniqueDeviceID":"7948","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"53","sceneID":"20","request":"795","impression":"795","click":"795"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"wqawkmp7NiIPQDSamAyw9CUGgtd0jZQdqM1jEzsvRMblXxZ9ZqZWfGaJ0cXTZwVyp\/6AmJ5yDxwlM4f7B9NBlQHHq8WyQyJd\/w7iEyNoNKM+nFMshHTDX7qsU2+vYOyq"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"DiBhEMmxLgqnxc2mlFXwnaT2si9BPa748DkW\/zXi8p24bpzmyUku+DP\/sMjIx1rES1\/ed1HFigc7GDqI1im14LskrmHNOViPjJUyka+6xxzod1lH7DcWnltvUunVR259"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats</td></tr></table>
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>592</b><br />
+{"message":"App belongs to an inactive brand."}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>25</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6954960</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.amazing.gamez.counter.terrorist.force","store":"41","uniqueDeviceID":"3718","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"28","sceneID":"10","request":"372","impression":"372","click":"372"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"cQH7phhGwFn421FQ+pnWff1H9qfF0flzxhws24IK8+YwrZ8+KRhlutVmkiAYvmlg9ghQHfkbFa9YcvxhBahMlkGqMyBJvW+rZJqvM7CP6Ov0bzdHPTizRyvp5B+M8bWE"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"GLYRfitE4N1R6O2\/4B9YXqV\/DxyOTd8lQujmR23iM+uEYMi4nWRBHvdAPp5YVewnfUnOyGxZJa3TpcJ2DPh\/vk3Ex3GP3NKMSUwUxJT1BnKn3QRi8F+txn8CAEf+PTJs"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>26</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7064640</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.sniper.shooter","store":"41","uniqueDeviceID":"3162","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"29","sceneID":"8","request":"316","impression":"316","click":"316"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","sessionToken":"GLYRfitE4N1R6O2\/4B9YXqV\/DxyOTd8lQujmR23iM+uEYMi4nWRBHvdAPp5YVewnfUnOyGxZJa3TpcJ2DPh\/vk3Ex3GP3NKMSUwUxJT1BnKn3QRi8F+txn8CAEf+PTJs"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"Q+OW5UoPF0Qs9K4vSHxS8c+XltPOOxgkwvy7UO6FiwRUFN\/lTQU57r8zEOGKDyVXI5ID+jJoj5IWavDZCyP1idooTBMTjgmWrO0xMUbEJn98eCBiQC+4aLFxAtgVEJg4"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>27</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7297075</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.dinosaur3Dsimulator","store":"42","uniqueDeviceID":"971","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"30","sceneID":"3","request":"97","impression":"97","click":"97"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"Q+OW5UoPF0Qs9K4vSHxS8c+XltPOOxgkwvy7UO6FiwRUFN\/lTQU57r8zEOGKDyVXI5ID+jJoj5IWavDZCyP1idooTBMTjgmWrO0xMUbEJn98eCBiQC+4aLFxAtgVEJg4"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"RmMGNzIDFlfQtw0KXVWQzvdwPk4aVUNS+H2zHU5arBKdS7ylXO5Ly7fFTzlIghethG5leCaq8AQEPLRPzavWBRBdCLV2+g9vkIkDGYULmNxFCf6zrhGthAHqHz3vzMx4"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>28</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6908198</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.loin3Dsimulator","store":"41","uniqueDeviceID":"8778","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"31","sceneID":"22","request":"877","impression":"877","click":"877"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"RmMGNzIDFlfQtw0KXVWQzvdwPk4aVUNS+H2zHU5arBKdS7ylXO5Ly7fFTzlIghethG5leCaq8AQEPLRPzavWBRBdCLV2+g9vkIkDGYULmNxFCf6zrhGthAHqHz3vzMx4"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"x80+d3n1X6tDABCcUb5aCaNMsF5ycEDGqY8MXb3d7Pbb+wBOSVNZU7+RmTWflx+r33jMuo4KEKBcSs8CoLVYHgGw0bmxpzRoLgs4j55rkGv5\/xN\/bxwcbSu+s90ohru5"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>29</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7179887</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.wolf3Dsimulator","store":"42","uniqueDeviceID":"175","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"32","sceneID":"1","request":"18","impression":"18","click":"18"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"x80+d3n1X6tDABCcUb5aCaNMsF5ycEDGqY8MXb3d7Pbb+wBOSVNZU7+RmTWflx+r33jMuo4KEKBcSs8CoLVYHgGw0bmxpzRoLgs4j55rkGv5\/xN\/bxwcbSu+s90ohru5"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"4cTIXF2OuHrRjA6dAVuzosdGN957RTLB7cGRvKiO3ostH7cO0T1o6XnnQVvxYatYhZxxThYLIWfCa++vN4PvX9s1FZRv6sc\/S3r2d8sidV\/OC9S162tEN\/TsW0s9rd7h"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>30</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7002498</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.horse3Dsimulator","store":"41","uniqueDeviceID":"7983","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"33","sceneID":"20","request":"798","impression":"798","click":"798"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"4cTIXF2OuHrRjA6dAVuzosdGN957RTLB7cGRvKiO3ostH7cO0T1o6XnnQVvxYatYhZxxThYLIWfCa++vN4PvX9s1FZRv6sc\/S3r2d8sidV\/OC9S162tEN\/TsW0s9rd7h"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"+TV+xRhSazt3j70d+jVnb3SLYr7j61dTpp53O2G+AozxQDo9ipruPG\/hqjkGFcRb+RDhz8HCCA0PhDsBt6E7HOOoVNRnlPsAuKqGzYAY8eNyPVi5ioPDEmy0VwfnDnuq"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>31</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.6965046</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.containertruck3Dsimulator","store":"41","uniqueDeviceID":"7427","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"34","sceneID":"19","request":"742","impression":"742","click":"742"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"+TV+xRhSazt3j70d+jVnb3SLYr7j61dTpp53O2G+AozxQDo9ipruPG\/hqjkGFcRb+RDhz8HCCA0PhDsBt6E7HOOoVNRnlPsAuKqGzYAY8eNyPVi5ioPDEmy0VwfnDnuq"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>32</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7207493</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.pizzamaker","store":"41","uniqueDeviceID":"1648","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"35","sceneID":"5","request":"165","impression":"165","click":"165"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"+TV+xRhSazt3j70d+jVnb3SLYr7j61dTpp53O2G+AozxQDo9ipruPG\/hqjkGFcRb+RDhz8HCCA0PhDsBt6E7HOOoVNRnlPsAuKqGzYAY8eNyPVi5ioPDEmy0VwfnDnuq"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"baWy6evYbGE0lLsZoRaND3jBqTaNj6uRoiuIvmEsEtZnEaNOXnpYray3\/Jo1mPsjgPZ2FaMnRDtOgQNHSwnlImw8hmcV6cc6NMZEJ1onr4hKffqkFG5EEaNA+CtzMtRj"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>33</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.9533175</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.monstertruckparking","store":"41","uniqueDeviceID":"1408","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"36","sceneID":"4","request":"141","impression":"141","click":"141"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"baWy6evYbGE0lLsZoRaND3jBqTaNj6uRoiuIvmEsEtZnEaNOXnpYray3\/Jo1mPsjgPZ2FaMnRDtOgQNHSwnlImw8hmcV6cc6NMZEJ1onr4hKffqkFG5EEaNA+CtzMtRj"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>34</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7529734</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.icecreammaker","store":"42","uniqueDeviceID":"2422","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"37","sceneID":"7","request":"242","impression":"242","click":"242"}],"gssdkVersion":"v8.1.1","sdkVersionID":"2225","sdkVersion":"2225","sessionToken":"baWy6evYbGE0lLsZoRaND3jBqTaNj6uRoiuIvmEsEtZnEaNOXnpYray3\/Jo1mPsjgPZ2FaMnRDtOgQNHSwnlImw8hmcV6cc6NMZEJ1onr4hKffqkFG5EEaNA+CtzMtRj"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"w2zz6uca3O0iEluSNbx7RQltYTx6KZ9PbsC2UD8tG5wmFB8AP1epbzZSUMt09kLo1j2t4\/48xj7Oa79Yxc+6z1O9abXLRPpXU8roRkz8g5jvWeK5gXg2wW9ahZ5TAOf3"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>35</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.8498298</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.gangstercar3Dsimulator","store":"41","uniqueDeviceID":"2946","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"38","sceneID":"8","request":"295","impression":"295","click":"295"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"w2zz6uca3O0iEluSNbx7RQltYTx6KZ9PbsC2UD8tG5wmFB8AP1epbzZSUMt09kLo1j2t4\/48xj7Oa79Yxc+6z1O9abXLRPpXU8roRkz8g5jvWeK5gXg2wW9ahZ5TAOf3"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>36</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7328693</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.car.stunts.simulator","store":"41","uniqueDeviceID":"9325","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"39","sceneID":"24","request":"932","impression":"932","click":"932"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"w2zz6uca3O0iEluSNbx7RQltYTx6KZ9PbsC2UD8tG5wmFB8AP1epbzZSUMt09kLo1j2t4\/48xj7Oa79Yxc+6z1O9abXLRPpXU8roRkz8g5jvWeK5gXg2wW9ahZ5TAOf3"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"dCVekdujHPKoVS5\/NvUENVHiXH9PqkEnCtHOwJonmkXjpB79UsrLJoFrspjS1OLpOoyrPK91xXstP7nKBmc15oZ4fk0cUUZRLDxfvgXug0Rgp7CBZm7xMTAvWoVzJuVb"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>37</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7343075</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.car.stunts.simulator","store":"43","uniqueDeviceID":"2674","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"40","sceneID":"7","request":"268","impression":"268","click":"268"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"dCVekdujHPKoVS5\/NvUENVHiXH9PqkEnCtHOwJonmkXjpB79UsrLJoFrspjS1OLpOoyrPK91xXstP7nKBmc15oZ4fk0cUUZRLDxfvgXug0Rgp7CBZm7xMTAvWoVzJuVb"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"197l2tEiEviQwDP+ZMqKzu9pO9hBsq+pJvXfKIc\/qVTbIZZj8PFongXOJ+rUyftmMxUwx2lsKN\/CeYyT5j5VmWuCzuzBvAtT1p\/LAaJpHn3UP26+57sKNoT8VqSV9HuT"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>38</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7328387</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.sand.excavator.truck.simulator","store":"42","uniqueDeviceID":"4386","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"41","sceneID":"11","request":"439","impression":"439","click":"439"}],"gssdkVersion":"3.2.2","sdkVersionID":"60","sdkVersion":"60","sessionToken":"197l2tEiEviQwDP+ZMqKzu9pO9hBsq+pJvXfKIc\/qVTbIZZj8PFongXOJ+rUyftmMxUwx2lsKN\/CeYyT5j5VmWuCzuzBvAtT1p\/LAaJpHn3UP26+57sKNoT8VqSV9HuT"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"gQdzxZHNFzX04ObOR+HPCVrWaFKGXOKZYIeue\/cntELYmd2FYdGRGSpTYEGTLn5uMOFrkVipEG1RRT8KMAa\/WJzt4ljqk0c2t246RteUUJdtinlPHKiQNqnZPWJK6dSK"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>39</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7634711</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.heavy.excavator.truck.simulator","store":"41","uniqueDeviceID":"7734","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"42","sceneID":"20","request":"773","impression":"773","click":"773"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"gQdzxZHNFzX04ObOR+HPCVrWaFKGXOKZYIeue\/cntELYmd2FYdGRGSpTYEGTLn5uMOFrkVipEG1RRT8KMAa\/WJzt4ljqk0c2t246RteUUJdtinlPHKiQNqnZPWJK6dSK"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"oJuORwMbXWA52fqI41ni5fvGBogn3IOYuBWhPcPgP9SpDj7dWQOzLSVq62oV4UGl0d43oD8\/s15omqv1a5zfuX0pIcm3PbsU8HWLVb8O+d6bHUl1Artv3zATbe8zwY+e"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>40</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7352584</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.plow.tractor.farming","store":"41","uniqueDeviceID":"3034","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"43","sceneID":"8","request":"304","impression":"304","click":"304"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"oJuORwMbXWA52fqI41ni5fvGBogn3IOYuBWhPcPgP9SpDj7dWQOzLSVq62oV4UGl0d43oD8\/s15omqv1a5zfuX0pIcm3PbsU8HWLVb8O+d6bHUl1Artv3zATbe8zwY+e"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"eXV3REVoPtM98cdaIkLNiVG40XP00xAwQBlTcy7b1fqft9fo\/ftaFGclfJTRdXL73nEyNq1vGmxxw3dwfxlZ6K0Ji4pCKavxgiw\/qgdtNAdaRjvnHK0AXP5hBGSyeT31"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>41</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7371291</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.cargo.train.transporter","store":"41","uniqueDeviceID":"9969","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"44","sceneID":"25","request":"996","impression":"996","click":"996"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"eXV3REVoPtM98cdaIkLNiVG40XP00xAwQBlTcy7b1fqft9fo\/ftaFGclfJTRdXL73nEyNq1vGmxxw3dwfxlZ6K0Ji4pCKavxgiw\/qgdtNAdaRjvnHK0AXP5hBGSyeT31"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"81f4MzQRXncyIMRvdIvQRZhfjhosJWMKihk0Bv11NLZBhcYjBUy\/YhJ\/fpycQMROqkiVDZsTD8uPFBib9A4dVAkASc1kxNprlY6U26t5P1bG5UXQP3yVlO1lOzeu3Jj\/"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>42</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7303473</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.cargo.train.transporter","store":"43","uniqueDeviceID":"6906","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"45","sceneID":"18","request":"690","impression":"690","click":"690"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"81f4MzQRXncyIMRvdIvQRZhfjhosJWMKihk0Bv11NLZBhcYjBUy\/YhJ\/fpycQMROqkiVDZsTD8uPFBib9A4dVAkASc1kxNprlY6U26t5P1bG5UXQP3yVlO1lOzeu3Jj\/"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"47\/4ysCLRJg1ozX33H+P5RzheZCaGZs7Qv+w\/2NzxFtKJKhxaYJ\/1da19XeoPvOxVDkqO15vGzpFhC8BUY5p9ySZIV2L5tMToBt0D+VM+Rv9kDq6V7mfel6YhXSfnDpq"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>43</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7577725</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.police.bike.racing.moto","store":"41","uniqueDeviceID":"255","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"46","sceneID":"1","request":"26","impression":"26","click":"26"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"47\/4ysCLRJg1ozX33H+P5RzheZCaGZs7Qv+w\/2NzxFtKJKhxaYJ\/1da19XeoPvOxVDkqO15vGzpFhC8BUY5p9ySZIV2L5tMToBt0D+VM+Rv9kDq6V7mfel6YhXSfnDpq"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>44</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7250776</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.jet.fighter.vs.tank.attack.action","store":"41","uniqueDeviceID":"5554","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"47","sceneID":"14","request":"555","impression":"555","click":"555"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"47\/4ysCLRJg1ozX33H+P5RzheZCaGZs7Qv+w\/2NzxFtKJKhxaYJ\/1da19XeoPvOxVDkqO15vGzpFhC8BUY5p9ySZIV2L5tMToBt0D+VM+Rv9kDq6V7mfel6YhXSfnDpq"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"\/r0HlMCFYal3v+7M43LDo6TkXbsTkKAawxNTc10yAfzTo34v0N3AlJzWo3Il4sxmXUGp7Fe\/AEEZ5qpEcP9kpNwrB4q2s4nW\/4sels\/gcKHtVod32RMiDnG\/PmoXwtRW"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>45</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7295811</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.ninja.warrior.attack.action","store":"41","uniqueDeviceID":"8902","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"48","sceneID":"23","request":"890","impression":"890","click":"890"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"\/r0HlMCFYal3v+7M43LDo6TkXbsTkKAawxNTc10yAfzTo34v0N3AlJzWo3Il4sxmXUGp7Fe\/AEEZ5qpEcP9kpNwrB4q2s4nW\/4sels\/gcKHtVod32RMiDnG\/PmoXwtRW"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>46</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7391244</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.sand.excavator.transporter.simulator","store":"41","uniqueDeviceID":"8662","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"49","sceneID":"22","request":"866","impression":"866","click":"866"}],"gssdkVersion":"2.0.3","sdkVersionID":"22","sdkVersion":"22","sessionToken":"\/r0HlMCFYal3v+7M43LDo6TkXbsTkKAawxNTc10yAfzTo34v0N3AlJzWo3Il4sxmXUGp7Fe\/AEEZ5qpEcP9kpNwrB4q2s4nW\/4sels\/gcKHtVod32RMiDnG\/PmoXwtRW"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>47</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7784823</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.crime.city.vendetta.simulator","store":"41","uniqueDeviceID":"2011","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"50","sceneID":"6","request":"201","impression":"201","click":"201"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"\/r0HlMCFYal3v+7M43LDo6TkXbsTkKAawxNTc10yAfzTo34v0N3AlJzWo3Il4sxmXUGp7Fe\/AEEZ5qpEcP9kpNwrB4q2s4nW\/4sels\/gcKHtVod32RMiDnG\/PmoXwtRW"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"\/7LUlDXggM2Bpt\/RcNVxtsBlmH7WrKknyLZ+JmKohw74pJmZmRVjfbhX2y1oQV+Wozk+69zk+O2MG1wplkDkJkXhaP3H3rgXnxG2XE8EPwRHS4c4XppFsX+nFRfUDgg7"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>48</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7340649</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.city.construction.road.builder","store":"41","uniqueDeviceID":"4486","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"52","sceneID":"12","request":"449","impression":"449","click":"449"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"\/7LUlDXggM2Bpt\/RcNVxtsBlmH7WrKknyLZ+JmKohw74pJmZmRVjfbhX2y1oQV+Wozk+69zk+O2MG1wplkDkJkXhaP3H3rgXnxG2XE8EPwRHS4c4XppFsX+nFRfUDgg7"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"1DfCRMH2i8qK802htdoUbTZvAsKYJ9w\/lUnC5liCFgaZqOlwPIxbadniWx\/NTYuQLT+ySIt1ucJViFKlvW2qnuYfHJ5FdQACROn9m1O90lByY5jt5ee3fhR6+yKkRDdm"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table><table cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-size: 9pt;font-family:arial'><tr><td style='width:1000px;border: 1px solid #ccc'>49</td><td style='width:2000px;border: 1px solid #ccc'>00:00:00.7389600</td><td style='width:1000px;border: 1px solid #ccc'>{"package":"com.gamerzstudio.airplane.cargo.truck.simulator","store":"41","uniqueDeviceID":"7834","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"53","sceneID":"20","request":"783","impression":"783","click":"783"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"1DfCRMH2i8qK802htdoUbTZvAsKYJ9w\/lUnC5liCFgaZqOlwPIxbadniWx\/NTYuQLT+ySIt1ucJViFKlvW2qnuYfHJ5FdQACROn9m1O90lByY5jt5ee3fhR6+yKkRDdm"}</td><td style='width:1000px;border: 1px solid #ccc'>{"message":"completed","sessionToken":"EHXEiVNInopiWroynlZ5pS\/HGqasGA5\/Sy1VThIVGvRBsdC+zHTFKvpgKYPWYSSpsPcCVe0C4N68KzN5N6fswiI1oh11ZQDyFvG51UI9zIDlfJ6eA0KpdfYW40yZvE3w"}</td><td style='width:2000px;border: 1px solid #ccc'>OK</td><td style='width:2000px;border: 1px solid #ccc'>http://sheeda.consoliads.com/sheeda/admin/analytics/saveNetworkStats</td></tr></table>
