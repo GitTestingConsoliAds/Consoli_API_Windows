@@ -63,7 +63,7 @@ namespace Monetization_Automation.Test
                     {
                         if (directoryInfo.Parent != null)
                         {
-                            ExcelUtil.PopulateInCollection(@"E:\Automation\Automation_Data\APIExcels\APIExcelCodeGenerator.xlsx", Monetization_Automation.TestingAPI.Properties.Settings.Default.Environment);
+                            ExcelUtil.PopulateInCollection(@"E:\Automation\Automation_Data\APIExcels\APIExcelInputGenerator.xlsx", Monetization_Automation.TestingAPI.Properties.Settings.Default.Environment);
                         }
                     }
                 }
