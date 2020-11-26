@@ -351,8 +351,8 @@ namespace Monetization_Automation.Test
                         + "\"native\"" + ":" + "[{" + "\"adID\"" + ":" + "\"" + failOverAdIDNative + "\"" + "," + "\"adOrder\"" + ":"
                         + "\"" + Extension.randomNumberGenerator(1, 10) + "\"" + "}]," + "\"banner\"" + ":" + "[{" + "\"adID\"" + ":"
                         + "\"" + failOverAdIDBanner + "\"" + "," + "\"adOrder\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 10)
-                        + "\"" + "}]," + "\"icon\"" + ":" + "[{" + "\"enabled\"" + ":" + "\"" + enable + "\"" + "," + "\"adID\"" + ":" + "\""
-                        + iconid + "\"" + "," + "\"size\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 3) + "\"" + "}]}],"
+                        + "\"" + "}]," + "\"icon\"" + ":" + "{" + "\"enabled\"" + ":" + "\"" + enable + "\"" + "," + "\"adID\"" + ":" + "\""
+                        + iconid + "\"" + "," + "\"size\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 3) + "\"" + "}}],"
                         + "\"appAdnetwork\"" + ":" + "[{" + "\"adID\"" + ":" + "\"" + failOverAdID + "\"" + "," + "\"isAdavailable\"" + ":"
                         + "\"" + isAdavailable + "\"" + "}," + "{" + "\"adID\"" + ":" + "\"" + failOverAdIDBanner + "\"" + "," + "\"isAdavailable\""
                         + ":" + "\"" + isAdavailable + "\"" + "}," + "{" + "\"adID\"" + ":" + "\"" + failOverAdIDNative + "\"" + "," + "\"isAdavailable\""
@@ -368,19 +368,19 @@ namespace Monetization_Automation.Test
                     request.AddHeader("Cookie", "PHPSESSID=36v04t3lr80mu2vafteha92ir5; ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2269304cc027e019004a45ebb080b5f2b8%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22182.180.164.20%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A21%3A%22PostmanRuntime%2F7.25.0%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1591874862%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D61bbe05f1cb8ab900ec2b5dfd7a84788382126de");
                     request.AddParameter("appJson", jsonBody);
                     DataCollectionAPIKeys.URLSDK = ExcelUtil.ReadData(5, "URL");
-                    SendJsonRequest.SendJsonRequestMainMethod(jsonBody, ExcelUtil.ReadData(5, "URL"), request, counter,apiName);
+                    SendJsonRequest.SendJsonRequestMainMethod(jsonBody, ExcelUtil.ReadData(5, "URL"), request, counter, apiName);
                     counter = counter + 1;
                     variable = variable + 1;
                     if (variable == 9)
                     {
                         variable = 0;
                     }
-                    
                 }
             }
 
 
-                if (apiName.Equals("SaveNetworkStats"))
+
+            if (apiName.Equals("SaveNetworkStats"))
                 {
                 int variable = 0;
                 //devmode code
