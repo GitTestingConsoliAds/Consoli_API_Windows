@@ -95,6 +95,8 @@ namespace Monetization_Automation.Test
                     string osID = (dataSet[0].Tables[0].Rows[counter][1].ToString());
                     string companyID = (dataSet[0].Tables[0].Rows[counter][2].ToString());
                     string userSignature = (dataSet[0].Tables[0].Rows[counter][3].ToString());
+                    string appVersionCode = (dataSet[0].Tables[0].Rows[counter][4].ToString());
+                    string appVersionName = (dataSet[0].Tables[0].Rows[counter][5].ToString());
                     string sdkID = (dataSet[1].Tables[0].Rows[variable][0].ToString());
                     string ver = (dataSet[1].Tables[0].Rows[variable][1].ToString());
                     string adID = (dataSet[2].Tables[0].Rows[variable][0].ToString());
@@ -105,7 +107,7 @@ namespace Monetization_Automation.Test
                     var iconid = 59;
                     jsonBody = "{" + "\"package\"" + ":" + "\"" + package + "\"," + "\"store\"" + ":" + "\"" + osID + "\"," +
                         "\"sdkVersionID\"" + ":" + "\"" + sdkID + "\"" + "," + "\"nativeApp\"" + ":" + "\"" + 1 + "\"," + "\"sdkVersion\"" +
-                        ":" + "\"" + sdkID + "\"," + "\"appAdnetwork\"" + ":" + "[{" + "\"adID\"" + ":" + "\"" + adID + "\"," +
+                        ":" + "\"" + sdkID + "\"," + "\"appVersionCode\"" + ":" + "\"" + appVersionCode + "\"" + "," + "\"appVersionName\"" + ":" + "\"" + appVersionName + "\"" + ","  + "\"appAdnetwork\"" + ":" + "[{" + "\"adID\"" + ":" + "\"" + adID + "\"," +
                         "\"isAdavailable\"" + ":" + "\"" + isAdavailable + "\"" + "}," + "{" + "\"adID\"" + ":" + "\"" +
                         failOverAdIDBanner + "\"," + "\"isAdavailable\"" + ":" + "\"" + isAdavailable + "\"" + "}," + "{" + "\"adID\"" + ":"
                         + "\"" + failOverAdIDNative + "\"," + "\"isAdavailable\"" + ":" + "\"" + isAdavailable + "\"" + "}," +
@@ -257,6 +259,8 @@ namespace Monetization_Automation.Test
                     string companyID = (dataSet[0].Tables[0].Rows[counter][2].ToString());
                     string osID = (dataSet[0].Tables[0].Rows[counter][3].ToString());
                     string userSignature = (dataSet[0].Tables[0].Rows[counter][4].ToString());
+                    string appsVersionCode = (dataSet[0].Tables[0].Rows[counter][5].ToString());
+                    string appsVersionName = (dataSet[0].Tables[0].Rows[counter][6].ToString());
                     string adID = (dataSet[1].Tables[0].Rows[variable][0].ToString());
                     string failOverAdID = (dataSet[2].Tables[0].Rows[variable][0].ToString());
                     string failOverAdIDBanner = (dataSet[3].Tables[0].Rows[variable][0].ToString());
@@ -332,6 +336,7 @@ namespace Monetization_Automation.Test
                     jsonBody = "{" + "\"package\"" + ":" + "\"" + package + "\"," + "\"title\"" + ":" + "\"" + title + "\"," +
                         "\"gssdkVersion\"" + ":" + "\"" + ver + "\"" + "," + "\"sdkVersionID\"" + ":" + "\"" + sdkID + "\"" + ","
                         + "\"sdkVersion\"" + ":" + "\"" + sdkID + "\"" + "," + "\"userSignature\"" + ":" + "\"" + userSignature + "\""
+                        + "," + "\"appVersionCode\"" + ":" + "\"" + appsVersionCode + "\"" + "," + "\"appVersionName\"" + ":" + "\"" + appsVersionName + "\""
                         + "," + "\"totalSequences\"" + ":" + "\"" + item.totalSequences + "\"" + "," + "\"adsQueueType\"" + ":" + "\""
                         + adsqueue + "\"" + "," + "\"gpRateUsURL\"" + ":" + "\"" + "\"," + "\"isHideAds\"" + ":" + "\"" +
                         Extension.randomNumberGenerator(0, 1) + "\"" + "," + "\"childDirected\"" + ":" + "\"" +
@@ -427,13 +432,17 @@ namespace Monetization_Automation.Test
                     string companyID = (dataSet[0].Tables[0].Rows[counter][3].ToString());
                     string sdkID = (dataSet[0].Tables[0].Rows[counter][4].ToString());
                     string ver = (dataSet[0].Tables[0].Rows[counter][5].ToString());
+                    string appVersionCode = (dataSet[0].Tables[0].Rows[counter][6].ToString());
+                    string appVersionName = (dataSet[0].Tables[0].Rows[counter][7].ToString());
                     string adID = (dataSet[1].Tables[0].Rows[counter][0].ToString());
+                    int isNativeAPP = Extension.randomNumberGenerator(0, 1);
                     item.uniqueDeviceID = Extension.randomNumberGenerator(1, 10000);
                     item.sceneID = Extension.randomNumberGenerator(1, 26);
                     var request = new RestRequest(Method.POST);
                     request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
                     request.AddHeader("Cookie", "PHPSESSID=ukk3jhiein0p3fddg824jilep2; ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2274d3c988d669499a01b875c1bca1abc2%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22182.180.164.20%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A21%3A%22PostmanRuntime%2F7.25.0%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1591103816%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Df63f392ff4facd0290cdfd0e4f42de96acb73f70");
-                    jsonBody = "{" + "\"package\"" + ":" + "\"" + package + "\"," + "\"store\"" + ":" + "\"" + osID + "\"," + "\"uniqueDeviceID\"" + ":" + "\"" + item.uniqueDeviceID + "\"" + "," + "\"appID\"" + ":" + "\"" + "\"," + "\"deviceID\"" + ":" + "\"" + "\"," + "\"region\"" + ":" + "\"" + "\"," + "\"adsQueueEventStats \"" + ":" + "[{" + "\"adID\"" + ":" + "\"" + adID + "\"" + "," + "\"sceneID\"" + ":" + "\"" + item.sceneID + "\"" + "," + "\" request\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 1000) + "\"" + "," + "\" impression\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 1000) + "\"" + "," + "\" click\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 1000) + "\"" + "}]," + "\"gssdkVersion\"" + ":" + "\"" + ver + "\"," + "\"sdkVersionID\"" + ":" + "\"" + sdkID + "\"," + "\"sdkVersion\"" + ":" + "\"" + sdkID + "\"," + "\"devMode\"" + ":" + "\"" + Extension.randomNumberGenerator(0,1) + "\"" + "}";
+                    jsonBody = "{" + "\"package\"" + ":" + "\"" + package + "\"," + "\"appVersionCode\"" + ":" + "\"" + appVersionCode + "\"" + "," + "\"appVersionName\"" + ":" + "\"" + appVersionName + "\""
+                        + "," + "\"nativeApp\"" + ":" + "\"" + isNativeAPP + "\"" + "," +  "\"store\"" + ":" + "\"" + osID + "\"," + "\"uniqueDeviceID\"" + ":" + "\"" + item.uniqueDeviceID + "\"" + "," + "\"appID\"" + ":" + "\"" + "\"," + "\"deviceID\"" + ":" + "\"" + "\"," + "\"region\"" + ":" + "\"" + "\"," + "\"adsQueueEventStats \"" + ":" + "[{" + "\"adID\"" + ":" + "\"" + adID + "\"" + "," + "\"sceneID\"" + ":" + "\"" + item.sceneID + "\"" + "," + "\" request\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 1000) + "\"" + "," + "\" impression\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 1000) + "\"" + "," + "\" click\"" + ":" + "\"" + Extension.randomNumberGenerator(1, 1000) + "\"" + "}]," + "\"gssdkVersion\"" + ":" + "\"" + ver + "\"," + "\"sdkVersionID\"" + ":" + "\"" + sdkID + "\"," + "\"sdkVersion\"" + ":" + "\"" + sdkID + "\"," + "\"devMode\"" + ":" + "\"" + Extension.randomNumberGenerator(0,1) + "\"" + "}";
                     //Byte[] inputBytes = Extension.GZipJsonString(jsonBody);
                     request.AddParameter("appJson", jsonBody);
                     DataCollectionAPIKeys.URLSDK = ExcelUtil.ReadData(2, "URL");

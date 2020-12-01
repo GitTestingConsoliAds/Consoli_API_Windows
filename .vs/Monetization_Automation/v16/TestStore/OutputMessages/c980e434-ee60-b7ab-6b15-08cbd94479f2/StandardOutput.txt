@@ -1,0 +1,146 @@
+
+
+Debug Trace:
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** SELECT apps.package, apps.appID, apps.osID, apps.companyID, apps.sdkID, sdk_info.ver, apps.appVersionCode, apps.appVersionName FROM apps INNER JOIN sdk_info ON apps.sdkID = sdk_info.sdkID WHERE apps.sdkID > 20 LIMIT 50
+****************** 
+****************** select adID from ads where ad_type != 'analytics';
+****************** 
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
