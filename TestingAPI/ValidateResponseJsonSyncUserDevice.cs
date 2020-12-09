@@ -234,7 +234,7 @@ namespace Monetization_Automation.Test
                                 }
                             }
 
-                            if (splitValue[0].ToString().Contains("\"asRateUsUR\""))
+                            if (splitValue[0].ToString().Contains("\"asRateUsURL\""))
                             {
                                 if (splitValue[1] == null)
                                 {

@@ -76,7 +76,7 @@ namespace Monetization_Automation.Test
 
             [TestMethod]
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
-        public void F_SyncAppunityMainMethodCodeGenerator()
+        public void G_SyncAppunityMainMethodCodeGenerator()
             {
                 int dataSetIndex = 7;
                 DataCollectionAPIKeys.URLSDK = Utils.ExcelUtil.ReadData(6, "URL");
