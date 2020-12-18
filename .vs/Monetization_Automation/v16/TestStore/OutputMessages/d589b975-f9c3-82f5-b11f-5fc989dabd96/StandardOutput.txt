@@ -1,0 +1,57 @@
+
+
+Debug Trace:
+****************** SELECT campaigns.campaignID,campaigns.appID,apps.sdkID,apps.companyID,apps.osID FROM apps INNER JOIN campaigns ON apps.appID = campaigns.appID WHERE apps.sdkID > 20 AND apps.appKey != '' AND campaigns.campaignID NOT IN (0 ,- 1 ,- 2 ,- 3 ,- 4 ,- 5) LIMIT 50
+****************** 
+****************** Select appKey , appID from apps where appkey!='' and sdkID > 10 limit  50
+****************** 
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi

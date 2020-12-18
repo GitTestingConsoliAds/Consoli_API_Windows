@@ -1,0 +1,515 @@
+
+
+Debug Trace:
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+****************** SELECT apps.package, apps.osID, apps.appID, apps.companyID,apps.sdkID,sdk_info.ver from apps INNER JOIN sdk_info ON apps.sdkID = sdk_info.sdkID where apps.sdkID > 20 Limit 50
+****************** 
+****************** select adID from ads where ad_type != 'analytics';
+****************** 
+****************** JJpX85UiVMIIL76SOmx/V38lvKURDRVwbXc8U7kDRoSED310LrcjKfQCfTMxbOWRwnbjSNw8TDXz5pA3iwXrqBhoeqMc8fG7U9JpllMOOwdTpbf6vuddgS2LUhomvidi
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+{"package":"com.rgs.sand.excavator.truck.simulator","store":"41","uniqueDeviceID":"8676","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"4","sceneID":"22","request":"867","impression":"867","click":"867"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"XeVzdzrF208xP4Ei\/SBShnZ69+4qGo333NGE\/EgnjpIXJcXaYDjuozVhbjlssHuhue1wsC5gH7eac94JJ5TK+u7bbH8qYf0pPE4NDZiGVSCYaWYI9NEJ6DZpM6odKnao"}: http://52.13.174.6/sheeda/admin/analytics/saveNetworkStatsAPI failed as it is not correct json response in content type. A PHP error has encoutered  4
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined offset: 0</p>
+<p>Filename: controllers/Mediation.php</p>
+<p>Line Number: 656</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
+			Line: 656<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/libraries/REST_Controller.php<br />
+			Line: 688<br />
+			Function: call_user_func_array			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1.php<br />
+			Line: 307<br />
+			Function: require_once			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/index.php<br />
+			Line: 69<br />
+			Function: require			</p>
+
+		
+	
+
+</div><br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>656</b><br />
+{"message":"App belongs to an inactive brand."}
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+Message value not appearing correctly
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+Message value not appearing correctly
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+Message value not appearing correctly
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+{"package":"com.threed.sand.excavator.simulator","store":"41","uniqueDeviceID":"1479","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"10","sceneID":"4","request":"148","impression":"148","click":"148"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"npQEadRRPCZUkVMKn608Z0KKbfDJDt3woMN+jij0Jcj1PRRKlgVLjQlMQbRQc9aLZWxSriy+3EAQrjcj2IlCmrbrKHwdpaWSsfpNe1t4329fr3xNm5uyG1ppYtLktAnJ"}: http://52.13.174.6/sheeda/admin/analytics/saveNetworkStatsAPI failed as it is not correct json response in content type. A PHP error has encoutered  10
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined offset: 0</p>
+<p>Filename: controllers/Mediation.php</p>
+<p>Line Number: 656</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
+			Line: 656<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/libraries/REST_Controller.php<br />
+			Line: 688<br />
+			Function: call_user_func_array			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1.php<br />
+			Line: 307<br />
+			Function: require_once			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/index.php<br />
+			Line: 69<br />
+			Function: require			</p>
+
+		
+	
+
+</div><br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>656</b><br />
+{"message":"App belongs to an inactive brand."}
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+{"package":"com.threed.sand.excavator.simulator","store":"43","uniqueDeviceID":"7399","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"11","sceneID":"19","request":"740","impression":"740","click":"740"}],"gssdkVersion":"5.1.3","sdkVersionID":"2151","sdkVersion":"2151","sessionToken":"npQEadRRPCZUkVMKn608Z0KKbfDJDt3woMN+jij0Jcj1PRRKlgVLjQlMQbRQc9aLZWxSriy+3EAQrjcj2IlCmrbrKHwdpaWSsfpNe1t4329fr3xNm5uyG1ppYtLktAnJ"}: http://52.13.174.6/sheeda/admin/analytics/saveNetworkStatsAPI failed as it is not correct json response in content type. A PHP error has encoutered  11
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined offset: 0</p>
+<p>Filename: controllers/Mediation.php</p>
+<p>Line Number: 656</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
+			Line: 656<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/libraries/REST_Controller.php<br />
+			Line: 688<br />
+			Function: call_user_func_array			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1.php<br />
+			Line: 307<br />
+			Function: require_once			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/index.php<br />
+			Line: 69<br />
+			Function: require			</p>
+
+		
+	
+
+</div><br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>656</b><br />
+{"message":"App belongs to an inactive brand."}
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+{"package":"1.0","store":"42","uniqueDeviceID":"6308","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"15","sceneID":"16","request":"631","impression":"631","click":"631"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","sessionToken":"hILqDFx6MZZNq5GkEmwviE6qM28DvnLg+M9VqHjJHyvcsAoRtI4Go1pU0FaKlgvcR4R8ImgWPISVDLLMv0tEAZq5HTa7iq\/fRX856rKg2yFXKoC6cGoyBSQ+2Zblu8WT"}: http://52.13.174.6/sheeda/admin/analytics/saveNetworkStatsAPI failed as it is not correct json response in content type. A PHP error has encoutered  14
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined offset: 0</p>
+<p>Filename: controllers/Mediation.php</p>
+<p>Line Number: 656</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
+			Line: 656<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/libraries/REST_Controller.php<br />
+			Line: 688<br />
+			Function: call_user_func_array			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1.php<br />
+			Line: 307<br />
+			Function: require_once			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/index.php<br />
+			Line: 69<br />
+			Function: require			</p>
+
+		
+	
+
+</div><br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>656</b><br />
+{"message":"App belongs to an inactive brand."}
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+Message value not appearing correctly
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+Message value not appearing correctly
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+Message value not appearing correctly
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+{"package":"com.threed.horse.simulator","store":"41","uniqueDeviceID":"6885","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"21","sceneID":"18","request":"688","impression":"688","click":"688"}],"gssdkVersion":"4.10.2","sdkVersionID":"2089","sdkVersion":"2089","sessionToken":"hILqDFx6MZZNq5GkEmwviE6qM28DvnLg+M9VqHjJHyvcsAoRtI4Go1pU0FaKlgvcR4R8ImgWPISVDLLMv0tEAZq5HTa7iq\/fRX856rKg2yFXKoC6cGoyBSQ+2Zblu8WT"}: http://52.13.174.6/sheeda/admin/analytics/saveNetworkStatsAPI failed as it is not correct json response in content type. A PHP error has encoutered  18
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined offset: 0</p>
+<p>Filename: controllers/Mediation.php</p>
+<p>Line Number: 656</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
+			Line: 656<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/libraries/REST_Controller.php<br />
+			Line: 688<br />
+			Function: call_user_func_array			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1.php<br />
+			Line: 307<br />
+			Function: require_once			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/index.php<br />
+			Line: 69<br />
+			Function: require			</p>
+
+		
+	
+
+</div><br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>656</b><br />
+{"message":"App belongs to an inactive brand."}
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+Message value not appearing correctly
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+{"package":"com.threed.wild.hungry.wolves","store":"41","uniqueDeviceID":"417","appID":"","deviceID":"","region":"","adsQueueEventStats":[{"adID":"27","sceneID":"2","request":"42","impression":"42","click":"42"}],"gssdkVersion":"5.1.3-1","sdkVersionID":"2163","sdkVersion":"2163","sessionToken":"9G2P2kRbDHKzlhihgys\/D5+e0zUX+2sYPgoEgIxugM0LlcBeHhp0O32x4ytsQbdZjazQZ3jDX+B0iqUr0HGQ7TyUzAk3oLmD1U688yRWmHS9cfNFIzGyBo71d1HQi+hV"}: http://52.13.174.6/sheeda/admin/analytics/saveNetworkStatsAPI failed as it is not correct json response in content type. A PHP error has encoutered  24
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined offset: 0</p>
+<p>Filename: controllers/Mediation.php</p>
+<p>Line Number: 656</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php<br />
+			Line: 656<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1/libraries/REST_Controller.php<br />
+			Line: 688<br />
+			Function: call_user_func_array			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/3.0.1.php<br />
+			Line: 307<br />
+			Function: require_once			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/sheeda/admin/index.php<br />
+			Line: 69<br />
+			Function: require			</p>
+
+		
+	
+
+</div><br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/html/sheeda/admin/3.0.1/modules/mediation/controllers/Mediation.php</b> on line <b>656</b><br />
+{"message":"App belongs to an inactive brand."}
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+Message value not appearing correctly
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+
+****************** http://52.13.174.6/sheeda/admin/analytics/saveNetworkStats
+message value is correct
+Session token value is set
+

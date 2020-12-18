@@ -32,12 +32,20 @@ namespace Monetization_Automation.Test
 
         public static void ValidateResponseJsonSyncUserDeviceMainMethod(IRestResponse restResponse, string URL, int loop, string jsonRequest, string apiName)
         {
+            string contentType = null; 
+            string responseContent = null;
+            if (restResponse.ContentType != null)
+            {
+                contentType = restResponse.ContentType.ToString();
+                responseContent = restResponse.Content.ToString();
+            }
             //variable decleration
-            var contentType = restResponse.ContentType.ToString();
-            var responseContent = restResponse.Content.ToString();
+
             char[] splitCharacter = { ',' };
             char[] splitCharacterColon = { ':' };
             string[] splitValue = null;
+
+
 
             //verifying status code and other major responses from API specifically status code
             if (restResponse.StatusCode.ToString() != "OK")
@@ -60,7 +68,6 @@ namespace Monetization_Automation.Test
                 {
                     Debug.WriteLine("Status code not OK," + URL + " API has failed at " + loop + " " + restResponse.StatusCode.ToString() + restResponse.Content.ToString(), jsonRequest);
                     Extension.CreateLogFile(loop, jsonRequest, restResponse.Content.ToString(), restResponse.StatusCode.ToString(), apiName, URL);
-
                 }
             }
             string[] separatedKeyValues = responseContent.Split(splitCharacter);
@@ -93,10 +100,7 @@ namespace Monetization_Automation.Test
             else
             {
                 Extension.CreateLogFile(loop, jsonRequest, restResponse.Content.ToString(), restResponse.StatusCode.ToString(), apiName, URL);
-
             }
-
-
 
             //Starting key level validations for all key values
             separatedKeyValues = responseContent.Split(splitCharacter);

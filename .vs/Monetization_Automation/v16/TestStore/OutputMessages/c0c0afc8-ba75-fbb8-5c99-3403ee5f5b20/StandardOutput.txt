@@ -1,0 +1,143 @@
+
+
+Debug Trace:
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** SELECT apps.package, apps.appID, apps.osID, apps.companyID, apps.sdkID, sdk_info.ver, apps.appVersionCode, apps.appVersionName FROM apps INNER JOIN sdk_info ON apps.sdkID = sdk_info.sdkID WHERE apps.sdkID > 20 LIMIT 50
+****************** 
+****************** select adID from ads where ad_type != 'analytics';
+****************** 
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+{"package":"com.amazing.gamez.airplane.car.transporter.pilot","appVersionCode":"","appVersionName":"","nativeApp":"0","store":"41","uniqueDeviceID":"1766","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"6","sceneID":"5"," request":"177"," impression":"177"," click":"177"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: message value is other then completed,http://52.13.174.6/sheeda/admin/analytics/syncUserDeviceapi is failed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+{"package":"com.amazing.gamez.airplane.car.transporter.pilot","appVersionCode":"","appVersionName":"","nativeApp":"0","store":"43","uniqueDeviceID":"2878","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"7","sceneID":"8"," request":"288"," impression":"288"," click":"288"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: message value is other then completed,http://52.13.174.6/sheeda/admin/analytics/syncUserDeviceapi is failed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+{"package":"com.amazing.gamez.snow.plow.truck.simulator","appVersionCode":"","appVersionName":"","nativeApp":"0","store":"41","uniqueDeviceID":"4862","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"8","sceneID":"13"," request":"486"," impression":"486"," click":"486"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: message value is other then completed,http://52.13.174.6/sheeda/admin/analytics/syncUserDeviceapi is failed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+{"package":"com.amazing.gamez.airplane.car.transporter.pilot","appVersionCode":"","appVersionName":"","nativeApp":"0","store":"42","uniqueDeviceID":"6856","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"18","sceneID":"18"," request":"685"," impression":"685"," click":"685"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: message value is other then completed,http://52.13.174.6/sheeda/admin/analytics/syncUserDeviceapi is failed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+{"package":"com.amazing.gamez.off.road.hill.climb","appVersionCode":"","appVersionName":"","nativeApp":"0","store":"41","uniqueDeviceID":"7968","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"19","sceneID":"20"," request":"797"," impression":"797"," click":"797"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: message value is other then completed,http://52.13.174.6/sheeda/admin/analytics/syncUserDeviceapi is failed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+{"package":"com.amazing.gamez.off.road.hill.climb","appVersionCode":"","appVersionName":"","nativeApp":"0","store":"43","uniqueDeviceID":"7444","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"20","sceneID":"19"," request":"744"," impression":"744"," click":"744"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: message value is other then completed,http://52.13.174.6/sheeda/admin/analytics/syncUserDeviceapi is failed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+{"package":"com.amazing.gamez.share.attack.survival.simulator","appVersionCode":"","appVersionName":"","nativeApp":"0","store":"42","uniqueDeviceID":"1326","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"26","sceneID":"4"," request":"133"," impression":"133"," click":"133"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: message value is other then completed,http://52.13.174.6/sheeda/admin/analytics/syncUserDeviceapi is failed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+{"package":"com.amazing.gamez.counter.terrorist.force","appVersionCode":"","appVersionName":"","nativeApp":"0","store":"41","uniqueDeviceID":"7486","appID":"","deviceID":"","region":"","adsQueueEventStats ":[{"adID":"28","sceneID":"19"," request":"748"," impression":"748"," click":"748"}],"gssdkVersion":"3.2.2","sdkVersionID":"39","sdkVersion":"39","devMode":"0"}: message value is other then completed,http://52.13.174.6/sheeda/admin/analytics/syncUserDeviceapi is failed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+child directed value is set
+Sequences value is set
+Is hide ads value is set
+Mediation mode value is set
+Ads mediation queue value is set
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed
+****************** http://52.13.174.6/sheeda/admin/analytics/syncUserDevice
+AM mode is working fine
+Message value is completed

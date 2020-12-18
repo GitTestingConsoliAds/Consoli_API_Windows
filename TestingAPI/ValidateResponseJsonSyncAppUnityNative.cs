@@ -32,9 +32,15 @@ namespace Monetization_Automation.Test
 
         public static void ValidateResponseJsonSyncAppUnityNativeMainMethod(IRestResponse restResponse, string URL, int loop, string jsonRequest, string apiName)
         {
+
+            string contentType = null;
+            string responseContent = null;
+            if (restResponse.ContentType != null)
+            {
+                contentType = restResponse.ContentType.ToString();
+                responseContent = restResponse.Content.ToString();
+            }
             //variable decleration
-            var contentType = restResponse.ContentType.ToString();
-            var responseContent = restResponse.Content.ToString();
             char[] splitCharacter = { ',' };
             char[] splitCharacterColon = { ':' };
             string[] splitValue = null;
@@ -102,7 +108,6 @@ namespace Monetization_Automation.Test
             else
             {
                 Extension.CreateLogFile(loop, jsonRequest, restResponse.Content.ToString(), restResponse.StatusCode.ToString(), apiName, URL);
-
             }
 
 
