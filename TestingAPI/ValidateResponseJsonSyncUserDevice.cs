@@ -32,18 +32,21 @@ namespace Monetization_Automation.Test
 
         public static void ValidateResponseJsonSyncUserDeviceMainMethod(IRestResponse restResponse, string URL, int loop, string jsonRequest, string apiName)
         {
+            char[] splitCharacter = { ',' };
+            char[] splitCharacterColon = { ':' };
+            string[] splitValue = null;
             string contentType = null; 
             string responseContent = null;
+            string[] separatedKeyValues = null;
             if (restResponse.ContentType != null)
             {
                 contentType = restResponse.ContentType.ToString();
                 responseContent = restResponse.Content.ToString();
+                separatedKeyValues = responseContent.Split(splitCharacter);
             }
             //variable decleration
 
-            char[] splitCharacter = { ',' };
-            char[] splitCharacterColon = { ':' };
-            string[] splitValue = null;
+
 
 
 
@@ -70,7 +73,6 @@ namespace Monetization_Automation.Test
                     Extension.CreateLogFile(loop, jsonRequest, restResponse.Content.ToString(), restResponse.StatusCode.ToString(), apiName, URL);
                 }
             }
-            string[] separatedKeyValues = responseContent.Split(splitCharacter);
 
             if (!contentType.Equals("application/json; charset=utf-8"))
             {

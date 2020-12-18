@@ -32,18 +32,20 @@ namespace Monetization_Automation.Test
 
         public static void ValidateResponseJsonSyncAppUnityNativeMainMethod(IRestResponse restResponse, string URL, int loop, string jsonRequest, string apiName)
         {
-
+            //variable decleration
+            char[] splitCharacter = { ',' };
+            char[] splitCharacterColon = { ':' };
+            string[] splitValue = null;
+            string[] separatedKeyValues = null;
             string contentType = null;
             string responseContent = null;
             if (restResponse.ContentType != null)
             {
                 contentType = restResponse.ContentType.ToString();
                 responseContent = restResponse.Content.ToString();
+                separatedKeyValues = responseContent.Split(splitCharacter);
             }
-            //variable decleration
-            char[] splitCharacter = { ',' };
-            char[] splitCharacterColon = { ':' };
-            string[] splitValue = null;
+
 
             //verifying status code and other major responses from API specifically status code
             if (restResponse.StatusCode.ToString() != "OK")
@@ -69,7 +71,7 @@ namespace Monetization_Automation.Test
 
                 }
             }
-            string[] separatedKeyValues = responseContent.Split(splitCharacter);
+
 
             if (!contentType.Equals("application/json; charset=utf-8"))
             {

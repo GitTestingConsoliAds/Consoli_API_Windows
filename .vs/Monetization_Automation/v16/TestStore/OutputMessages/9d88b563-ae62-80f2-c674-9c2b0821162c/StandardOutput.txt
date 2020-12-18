@@ -24,54 +24,12 @@ LIMIT 50
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
 Ads mediation queue value is set
 child directed value is set
 Sequences value is set
 Is hide ads value is set
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
-Ads mediation queue value is set
-child directed value is set
-Sequences value is set
-Is hide ads value is set
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-Ads mediation queue value is set
-child directed value is set
-Sequences value is set
-Is hide ads value is set
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-Ads mediation queue value is set
-child directed value is set
-Sequences value is set
-Is hide ads value is set
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-Ads mediation queue value is set
-child directed value is set
-Sequences value is set
-Is hide ads value is set
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
@@ -92,8 +50,6 @@ Ads mediation queue value is set
 child directed value is set
 Sequences value is set
 Is hide ads value is set
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
-****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 Ads mediation queue value is set
@@ -132,6 +88,40 @@ Is hide ads value is set
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
+Ads mediation queue value is set
+child directed value is set
+Sequences value is set
+Is hide ads value is set
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+Ads mediation queue value is set
+child directed value is set
+Sequences value is set
+Is hide ads value is set
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+Ads mediation queue value is set
+child directed value is set
+Sequences value is set
+Is hide ads value is set
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+Ads mediation queue value is set
+child directed value is set
+Sequences value is set
+Is hide ads value is set
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
 ****************** http://52.13.174.6/sheeda/admin/json/syncApp
@@ -156,3 +146,13 @@ Ads mediation queue value is set
 child directed value is set
 Sequences value is set
 Is hide ads value is set
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
+****************** http://52.13.174.6/sheeda/admin/json/syncApp
