@@ -77,6 +77,7 @@ namespace Monetization_Automation.Test
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
         public void D_SaveNetworkrStatsMainMethodCodeGenerator()
         {
+            int test = 0;
             int dataSetIndex = 2;
             int count = DataTableCollectionLoop.tableCollection.Rows.Count;
             DataCollectionAPIKeys.URLSDK = Utils.ExcelUtil.ReadData(3, "URL");

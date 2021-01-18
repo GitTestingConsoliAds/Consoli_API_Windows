@@ -78,6 +78,7 @@ namespace Monetization_Automation.Test
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
         public void G_SyncAppunityMainMethodCodeGenerator()
             {
+            int test = 0;
                 int dataSetIndex = 7;
                 DataCollectionAPIKeys.URLSDK = Utils.ExcelUtil.ReadData(6, "URL");
                 Extension.OpenDBConnection();

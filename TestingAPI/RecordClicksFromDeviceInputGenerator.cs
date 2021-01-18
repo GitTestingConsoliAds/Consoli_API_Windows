@@ -77,6 +77,7 @@ namespace Monetization_Automation.Test
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
         public void C_RecordClicksFromDeviceMainMethodCodeGenerator()
         {
+            int test = 0;
             int dataSetIndex = 2;
             Extension.OpenDBConnection();
             QueryArrayAllAPI.queryArrayAllAPI[0] = Utils.ExcelUtil.ReadData(7, "Query") + " " + Utils.ExcelUtil.ReadData(1, "Limit"); 
