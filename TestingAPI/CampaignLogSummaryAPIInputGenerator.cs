@@ -78,9 +78,7 @@ namespace Monetization_Automation.Test
         [DeploymentItem(@"E:\Automation\Automation_API_Windows\Monetization_Automation\Monetization_Automation\Monetization_Automation\Monetization_Automation.Utils\Monetization_Automation.Utils\bin\Debug\Monetization_Automation.Utils.dll")]
         public void B_CampaignLogSummaryMainMethodCodeGenerator()
         {
-            int test = 0;
             int dataSetIndex = 1;
-            Extension.OpenDBConnection(); 
             Extension.OpenDBConnection();
             QueryArrayAllAPI.queryArrayAllAPI[0] = Utils.ExcelUtil.ReadData(1, "Query") + " " + Utils.ExcelUtil.ReadData(1, "Limit");
             Extension.ExecuteQueryAPICodeGenerator(SqlConnectionInstance.SqlConnection, dataSetIndex);
